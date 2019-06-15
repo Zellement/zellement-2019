@@ -1,0 +1,33 @@
+header {
+	width: 100%!important;
+	right: 0; top: 0; left: 0; 
+	z-index: 10;
+	position: fixed;
+}
+
+.logo {
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	max-width: 130px;
+}
+
+@include bp1000 {
+
+	header {
+		background: none;
+	}
+
+	.logo {
+		float: left;
+		width: 100%;
+	}
+
+	&:after {
+		content: '';
+		clear: both;
+		display: block;
+	}
+
+}
