@@ -23,7 +23,7 @@
 		  position: absolute;
 		  height: 4px;
 		  width: 50%;
-		  background: $blanc;
+		  background: $noir;
 		  opacity: 1;
 		  transform: rotate(0deg);
 		  transition: .25s ease-in-out;
@@ -124,7 +124,6 @@
 
 	@include bp800 {
 
-		//background: darken($noir,10);
 		position: relative;
 		width: 100%;
 		max-width: $large-width;
@@ -152,7 +151,6 @@
 
 		&__item {
 			display: block;
-			color: $blanc;
 			text-decoration: none;
 			padding: 10px;
 			margin: 0 2px;

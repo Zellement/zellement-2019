@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import Logo from "../components/Logo"
 import Navigation from "../components/Navigation"
 import { StaticQuery, graphql } from "gatsby"
-import '../scss/master.scss'
+import '../css/master.css'
 
 const HeaderWrapper = () => (
 	<div>

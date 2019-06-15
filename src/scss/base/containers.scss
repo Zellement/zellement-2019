@@ -10,12 +10,5 @@
 		max-width: $x-large-width;
 	}
 
-	&--before {
-		&:before {
-			content: '';
-			display: block;
-			width: 100%;
-			height: 180px;
-		}
-	}
+
 }

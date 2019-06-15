@@ -3,7 +3,7 @@ import React from "react"
 import AnimatedLink from "../components/AnimatedLink"
 
 const Logo = () => (
-  <div className="logo">
+  <div className="md:float-left">
     <AnimatedLink to="/" className="logo__image" title="Go home">
       <img alt="Logo" src="https://via.placeholder.com/150" />
     </AnimatedLink>
