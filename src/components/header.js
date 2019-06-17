@@ -30,11 +30,12 @@ const HeaderWrapper = () => (
 			  <meta property="og:url" content="/" />
 			  <meta property="og:image" content="./src/img/logo-badge.jpg" />
 			</Helmet>
-			<header>
-				<div className="container">
+			<header className="block">
+				<div className="container mx-auto">
 					<Logo />
 					<Navigation />
 				</div>
+				<div className="clearfix"></div>
 			</header>
 	      </div>
 	    )}

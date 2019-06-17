@@ -15,8 +15,8 @@ const Navigation = class extends React.Component {
     const menuActive = this.state.showMenu ? 'is-active' : '';
     const burgerActive = this.state.showMenu ? 'is-active' : '';
     return (     
-    <nav className="navigation">
-      <div className={`navigation__menu ${menuActive}`} >
+    <nav className="navigation md:float-right">
+      <div className={`navigation__menu ${menuActive} hidden md:block`} >
         <div className="navigation__inside">
         <ul className="navigation__list">
           <li className="navigation__list-item">
@@ -25,14 +25,14 @@ const Navigation = class extends React.Component {
           </ul>
         </div>
       </div>
-      <div className={`navigation__burger burger ${burgerActive}`} onClick={this.toggleMenu}>
-        <div className={`navigation__burger-inside ${burgerActive}`}>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
+      <div className={`${burgerActive} w-10 h-10 block md:hidden fixed top-0 right-0 bg-black z-10 cursor-pointer p-8 pb-10`} onClick={this.toggleMenu}>
+        <div className={`navigation__burger-inside relative ${burgerActive}`}>
+          <span className="block absolute h-3 w-1/2 opacity-100"></span>
+          <span className="block absolute h-3 w-1/2 opacity-100"></span>
+          <span className="block absolute h-3 w-1/2 opacity-100"></span>
+          <span className="block absolute h-3 w-1/2 opacity-100"></span>
+          <span className="block absolute h-3 w-1/2 opacity-100"></span>
+          <span className="block absolute h-3 w-1/2 opacity-100"></span>
         </div>
       </div>
     </nav>
