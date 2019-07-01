@@ -29,6 +29,7 @@ const Layout = ({ children }) => (
 			<meta property="og:title" content={data.site.siteMetadata.title} />
 			<meta property="og:url" content="/" />
 			<meta property="og:image" content="./src/img/logo-badge.jpg" />
+      <body className="bg-cyan" />
 		</Helmet>
         <Header siteTitle={data.site.siteMetadata.title} />
         <main>{children}</main>
