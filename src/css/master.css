@@ -2,11 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+/* --------------------------
+Navigation
+-------------------------- */
+
+.navigation-wrapper {
+	transform: translateX(-100%);
+	transition: .5s;
+}
+
+.navigation-wrapper--is-active {
+	@apply block;
+	transform: translateX(0);
+}
+
 .navigation-button {
 	padding: 15px;
 }
 
-.navigation-lines {
+.navigation-button__lines {
 	@apply block absolute top-0 w-1/2 bg-white opacity-100;
 	height: 2px;
 }
