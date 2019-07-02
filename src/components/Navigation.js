@@ -20,7 +20,7 @@ const Navigation = class extends React.Component {
         <ul className="">
           <li className="sm:inline-block">
             <AnimatedLink className="text-white block sm:inline-block" activeClassName="active" to="/">Home</AnimatedLink>
-            <AnimatedLink className="text-white block sm:inline-block" activeClassName="active" to="/">About</AnimatedLink>
+            <AnimatedLink className="text-white block sm:inline-block" activeClassName="active" to="/about">About</AnimatedLink>
             <AnimatedLink className="text-white block sm:inline-block" activeClassName="active" to="/">Contact</AnimatedLink>
           </li>
         </ul>

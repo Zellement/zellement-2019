@@ -35,9 +35,6 @@ Custom utilities
 Navigation
 -------------------------- */
 
-.navigation-wrapper {
-}
-
 .navigation-wrapper--is-active {
 	@apply block transform-x-0;
 }
