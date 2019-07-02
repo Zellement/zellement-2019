@@ -3,17 +3,43 @@
 @tailwind utilities;
 
 /* --------------------------
+Custom utilities
+-------------------------- */
+
+@responsive {
+
+  .rotate-0 {
+    transform: rotate(0deg);
+  }
+  .rotate-45 {
+    transform: rotate(45deg);
+  }
+  .rotate--45 {
+    transform: rotate(-45deg);
+  }
+
+  .transition-fast {
+  	transition: .3s;
+  }
+  
+  .transform-x--100 {
+  	transform: translateX(-100%);
+  }
+  .transform-x-0 {
+  	transform: translateX(0);
+  }
+
+}
+
+/* --------------------------
 Navigation
 -------------------------- */
 
 .navigation-wrapper {
-	transform: translateX(-100%);
-	transition: .5s;
 }
 
 .navigation-wrapper--is-active {
-	@apply block;
-	transform: translateX(0);
+	@apply block transform-x-0;
 }
 
 .navigation-button {
@@ -21,9 +47,8 @@ Navigation
 }
 
 .navigation-button__lines {
-	@apply block absolute top-0 w-1/2 bg-white opacity-100;
+	@apply block absolute top-0 w-1/2 bg-white opacity-100 transition-fast;
 	height: 2px;
-	transition: .3s;
 }
 
 .navigation-button.is-active {
@@ -31,12 +56,12 @@ Navigation
 }
 
 .navigation-button.is-active .navigation-button__line-1 {
-	transform: rotate(45deg);
+	@apply rotate-45;
 	margin-top: 2px;
 }
 
 .navigation-button.is-active .navigation-button__line-2 {
-	transform: rotate(-45deg);
+	@apply rotate--45;
 	margin-top: 10px;
 }
 
@@ -49,11 +74,11 @@ Navigation
 }
 
 .navigation-button.is-active .navigation-button__line-5 {
-	transform: rotate(-45deg);
+	@apply rotate--45;
 	margin-top: 2px;
 }
 
 .navigation-button.is-active .navigation-button__line-6 {
-	transform: rotate(45deg);
+	@apply rotate-45;
 	margin-top: 10px;
 }
