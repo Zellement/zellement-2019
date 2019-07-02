@@ -4,7 +4,7 @@ import Navigation from "./Navigation"
 
 const Header = () => (
 	<div>
-		<header className="block bg-cyan">
+		<header className="block">
 			<div className="container mx-auto">
 				<Logo />
 				<Navigation />
