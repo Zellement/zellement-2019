@@ -31,6 +31,17 @@ Custom utilities
 
 }
 
+
+/* --------------------------
+Base
+-------------------------- */
+
+body {
+  font-family: "Cormorant SC";
+  @apply bg-brown-standard text-lightgrey;
+}
+
+
 /* --------------------------
 Navigation
 -------------------------- */
@@ -49,7 +60,7 @@ Navigation
 }
 
 .navigation-button.is-active {
-	@apply bg-cyan;
+	@apply bg-white;
 }
 
 .navigation-button.is-active .navigation-button__line-1 {

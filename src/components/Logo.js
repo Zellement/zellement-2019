@@ -3,9 +3,10 @@ import React from "react"
 import AnimatedLink from "../components/AnimatedLink"
 
 const Logo = () => (
-  <div className="sm:float-left">
-    <AnimatedLink to="/" className="logo__image" title="Go home">
-      <img alt="Logo" src="https://via.placeholder.com/150" />
+  <div className="p-2">
+    <AnimatedLink to="/" className="text-centre" title="Go home">
+      <span className="block text-3xl leading-none">Dan Farrow</span>
+      <span className="block text-md">www.zellement.com</span>
     </AnimatedLink>
   </div>
 )

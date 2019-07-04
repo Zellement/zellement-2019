@@ -19,6 +19,15 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-postcss`,
     {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Cormorant SC`,
+        ],
+        display: 'swap'
+      }
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,

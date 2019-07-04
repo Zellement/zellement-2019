@@ -4,13 +4,13 @@ import Navigation from "./Navigation"
 
 const Header = () => (
 	<div>
-		<header className="block">
+		<header className="block fixed top-0 left-0 w-full">
 			<div className="container mx-auto">
 				<Logo />
 				<Navigation />
 			</div>
-			<div className="clearfix"></div>
 		</header>
+		<div className="h-20 w-full block"></div>
 	</div>
 )
 

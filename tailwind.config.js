@@ -7,8 +7,6 @@ module.exports = {
       xl: '1280px',
     },
     fontFamily: {
-      display: ['Georgia', 'sans-serif'],
-      body: ['Georgia', 'sans-serif'],
     },
     borderWidth: {
       default: '1px',
@@ -18,7 +16,11 @@ module.exports = {
     },
     extend: {
       colors: {
-        cyan: '#9cdbff',
+        brown: {
+          standard: '#1A1918',
+          dark: '#141210',
+        },
+        lightgrey: '#9F9F9F',
       },
       spacing: {
         '96': '24rem',
@@ -29,3 +31,4 @@ module.exports = {
   variants: {},
   plugins: []
 }
+
