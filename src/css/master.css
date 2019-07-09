@@ -43,6 +43,15 @@ body {
 
 
 /* --------------------------
+Logo
+-------------------------- */
+
+.logo {
+  max-width: 30px;
+  height: auto;
+}
+
+/* --------------------------
 Navigation
 -------------------------- */
 
@@ -55,7 +64,7 @@ Navigation
 }
 
 .navigation-button__lines {
-	@apply block absolute top-0 w-1/2 bg-white opacity-100 transition-fast;
+	@apply block absolute top-0 w-1/2 bg-brown-dark opacity-100 transition-fast;
 	height: 2px;
 }
 

@@ -30,9 +30,11 @@ const Layout = ({ children }) => (
 			<meta property="og:image" content="./src/img/logo-badge.jpg" />
       		<body className="" />
 		</Helmet>
+      <div className="md:flex md:flex-wrap md:justify-between">
         <Header siteTitle={data.site.siteMetadata.title} />
-        <main>{children}</main>
-        <Footer />
+        <main className="mt-12 md:mt-0 md:w-2/3 lg:w-3/4">{children}</main>
+      </div>
+      <Footer />
       </>
     )}
   />
