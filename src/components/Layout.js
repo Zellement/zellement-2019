@@ -32,7 +32,11 @@ const Layout = ({ children }) => (
 		</Helmet>
       <div className="md:flex md:flex-wrap md:justify-between">
         <Header siteTitle={data.site.siteMetadata.title} />
-        <main className="mt-12 md:mt-0 md:w-2/3 lg:w-3/4">{children}</main>
+        <main className="pt-8 mt-12 md:mt-0 md:w-2/3 lg:w-3/4">
+          <div className="container mx-auto px-4 md:p-10 lg:p-16">
+          {children}
+          </div>
+        </main>
       </div>
       <Footer />
       </>

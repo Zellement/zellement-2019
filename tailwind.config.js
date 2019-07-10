@@ -7,6 +7,11 @@ module.exports = {
       xl: '1280px',
     },
     fontFamily: {
+      'sans': ['-apple-system', 'BlinkMacSystemFont'],
+      'serif': ['Georgia', 'Cambria'],
+      'mono': ['SFMono-Regular', 'Menlo'],
+      'color-font': ['Cormorant\\ SC','serif'],
+      'standard-font': ['PT\\ Sans','sans-serif'],
     },
     borderWidth: {
       default: '1px',
@@ -17,9 +22,14 @@ module.exports = {
     extend: {
       colors: {
         brown: {
+          feint: '#b5aba2',
           light: '#635d57',
           standard: '#1A1918',
           dark: '#141210',
+        },
+        grey: {
+          light: '#eee',
+          standard: '#9F9F9F',
         },
         lightgrey: '#9F9F9F',
       },

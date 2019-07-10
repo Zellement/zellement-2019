@@ -23,6 +23,7 @@ module.exports = {
       options: {
         fonts: [
           `Cormorant SC`,
+          `PT Sans`,
         ],
         display: 'swap'
       }

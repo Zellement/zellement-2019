@@ -37,8 +37,16 @@ Base
 -------------------------- */
 
 body {
-  font-family: "Cormorant SC";
-  @apply bg-brown-standard text-lightgrey;
+  @apply bg-brown-standard text-brown-feint font-standard-font;
+}
+
+h1, h2, h3, h4, h5 {
+  @apply font-color-font;
+}
+
+h1:after {
+  content: '';
+  @apply block w-20 h-px bg-orange-400;
 }
 
 
@@ -69,7 +77,7 @@ Navigation
 }
 
 .navigation-button.is-active {
-	@apply bg-white;
+	@apply bg-brown-feint;
 }
 
 .navigation-button.is-active .navigation-button__line-1 {

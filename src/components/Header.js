@@ -8,7 +8,6 @@ const Header = () => (
 				<Logo />
 				<Navigation />
 			</div>
-			<div className="h-20 w-full block"></div>
 		</header>
 )
 
