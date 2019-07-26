@@ -2,6 +2,8 @@ import React from 'react'
 import Layout from '../components/Layout'
 import AnimatedLink from "../components/AnimatedLink"
 import IconWordPress from "../svgs/wordpress.svg";
+import IconGatsbyJS from "../svgs/gatsbyjs.svg";
+import IconSass from "../svgs/sass.svg";
 
 const HomePage = () => (
   <Layout>
@@ -20,7 +22,9 @@ const HomePage = () => (
 
 			<div className="align-right">
 				<div className="flex pt-8">
-					<IconWordPress className="max-w-50px h-auto"/>
+					<IconWordPress className="icons"/>
+					<IconGatsbyJS className="fill-current icons"/>
+					<IconSass className="fill-current icons"/>
 				</div>
 			</div>
 		</div>

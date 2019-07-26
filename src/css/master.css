@@ -29,8 +29,13 @@ Custom utilities
   	transform: translateX(0);
   }
 
-  .max-w-50px {
-    max-width: 50px;
+  .icons {
+    width: 40px;
+    height: auto;
+    max-width: 40px;
+    max-height: 40px;
+    fill: #635d57;
+    opacity: .6;
   }
 
 }
