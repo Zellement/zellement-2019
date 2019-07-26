@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Zellement Boilerplate`,
-    description: `Starter boilerplate`,
+    title: `Zellement.com`,
+    description: `Online presence of Dan Farrow`,
     author: `@Zellement`,
   },
   plugins: [
@@ -35,8 +35,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#b5aba2`,
+        theme_color: `#141210`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
