@@ -52,7 +52,7 @@ const HomePage = () => (
 
 			<div className="pt-8 w-100">
 
-				<p className="max-w-lg">Built using GatsbyJS and the accessible Netlify CMS, this small site is was developed for a voluntary shanty group, dedicated to raising money for the RNLI.</p>
+				<p className="max-w-lg">Built using GatsbyJS and the accessible Netlify CMS, this small site was developed for a voluntary shanty group, dedicated to raising money for the RNLI.</p>
 
 			</div>
 
