@@ -36,6 +36,11 @@ Custom utilities
     max-height: 40px;
     fill: #635d57;
     opacity: .6;
+    transition: .3s;
+  }
+
+  .icons:hover {
+    opacity: 1;
   }
 
 }
@@ -50,12 +55,17 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-  @apply font-color-font leading-none;
+  @apply font-color-font leading-none relative;
 }
 
 h1:after {
   content: '';
-  @apply block w-20 h-px bg-orange-400;
+  @apply block w-32 h-px bg-orange-400 absolute bottom-0;
+}
+
+h2:after {
+  content: '';
+  @apply block w-20 h-px bg-orange-400 -mb-1 absolute bottom-0;
 }
 
 
@@ -71,6 +81,10 @@ Logo
 /* --------------------------
 Navigation
 -------------------------- */
+
+.navigation-wrapper {
+  @apply font-color-font;
+}
 
 .navigation-wrapper--is-active {
 	@apply block transform-x-0;
