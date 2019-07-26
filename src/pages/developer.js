@@ -1,9 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import AnimatedLink from "../components/AnimatedLink"
-import { IconContext } from "react-icons";
-import { DiReact, DiSass } from 'react-icons/di';
-import IconGatsbyJS from "../icons/gatsbyjs.svg";
+import IconWordPress from "../svgs/wordpress.svg";
 
 const HomePage = () => (
   <Layout>
@@ -21,13 +19,9 @@ const HomePage = () => (
 			</div>
 
 			<div className="align-right">
-				<IconContext.Provider value={{ size: '2em', className: "text-brown-light" }}>
-					<div className="flex pt-8">
-						<DiReact/>
-						<DiSass/>
-						<IconGatsbyJS/>
-					</div>
-				</IconContext.Provider>
+				<div className="flex pt-8">
+					<IconWordPress className="max-w-50px h-auto"/>
+				</div>
 			</div>
 		</div>
   </Layout>

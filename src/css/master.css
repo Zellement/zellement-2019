@@ -29,6 +29,10 @@ Custom utilities
   	transform: translateX(0);
   }
 
+  .max-w-50px {
+    max-width: 50px;
+  }
+
 }
 
 
