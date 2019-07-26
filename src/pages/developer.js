@@ -17,38 +17,42 @@ const HomePage = () => (
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Development Work</h2>
 	</div>
 
-		<div className="flex flex-col lg:flex-row lg:flex-wrap items-stretch w-100 justify-between border-b border-orange-800 pb-8">
+		<div className="border-b border-orange-800 pb-8">
 
-			<div>
+			<div className="flex flex-col lg:flex-row lg:flex-wrap items-stretch w-100 justify-between">
 
-				<h3 className="text-2xl mt-5">Sheringham Shantymen</h3>
-				<p><a target="_blank" href="https://www.shantymen.com">www.shantymen.com</a></p>
+				<div>
 
-			</div>
+					<h3 className="text-2xl mt-5">Sheringham Shantymen</h3>
+					<p><a target="_blank" href="https://www.shantymen.com">www.shantymen.com</a></p>
 
-			<div className="align-right">
-				<div className="flex pt-3 md:pt-8">
-					<a className="self-center mr-2" target="_blank" href="https://www.gatsbyjs.org/">
-						<IconGatsbyJS className="icons"/>
-					</a>
-					<a className="self-center mr-2" target="_blank" href="https://graphql.org/">
-						<IconGraphQL className="icons"/>
-					</a>
-					<a className="self-center mr-2" target="_blank" href="https://sass-lang.com/">
-						<IconSass className="icons"/>
-					</a>
-					<a className="self-center mr-2" target="_blank" href="https://www.netlify.com/">
-						<IconNetlify className="icons"/>
-					</a>
-					<a className="self-center" target="_blank" href="https://www.netlifycms.org/">
-						<IconNetlify className="icons"/>
-					</a>
 				</div>
+
+				<div className="align-right">
+					<div className="flex pt-3 md:pt-8">
+						<a className="self-center mr-2" target="_blank" href="https://www.gatsbyjs.org/">
+							<IconGatsbyJS className="icons"/>
+						</a>
+						<a className="self-center mr-2" target="_blank" href="https://graphql.org/">
+							<IconGraphQL className="icons"/>
+						</a>
+						<a className="self-center mr-2" target="_blank" href="https://sass-lang.com/">
+							<IconSass className="icons"/>
+						</a>
+						<a className="self-center mr-2" target="_blank" href="https://www.netlify.com/">
+							<IconNetlify className="icons"/>
+						</a>
+						<a className="self-center" target="_blank" href="https://www.netlifycms.org/">
+							<IconNetlify className="icons"/>
+						</a>
+					</div>
+				</div>
+
 			</div>
 
 			<div className="pt-8 w-100">
 
-				<p className="lg:ml-3">Built using GatsbyJS and an accessible CMS, this small site is was developed for a voluntary shanty group, dedicated to raising money for the RNLI.</p>
+				<p className="max-w-lg">Built using GatsbyJS and the accessible Netlify CMS, this small site is was developed for a voluntary shanty group, dedicated to raising money for the RNLI.</p>
 
 			</div>
 

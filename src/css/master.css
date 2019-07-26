@@ -43,6 +43,22 @@ Custom utilities
     opacity: 1;
   }
 
+  .icon-gatsbyjs-white {
+    fill: #1A1918;
+  }
+
+  .icon-gatsbyjs-purple {
+    fill: #635d57;
+  }
+
+  .icons:hover .icon-gatsbyjs-white {
+    fill: #fff;
+  }
+
+  .icons:hover .icon-gatsbyjs-purple {
+    fill: #639;
+  }
+
 }
 
 
