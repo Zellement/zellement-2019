@@ -3,6 +3,7 @@ import Layout from '../components/Layout'
 import AnimatedLink from "../components/AnimatedLink"
 import { IconContext } from "react-icons";
 import { DiReact, DiSass } from 'react-icons/di';
+import IconGatsbyJS from "../icons/gatsbyjs.svg";
 
 const HomePage = () => (
   <Layout>
@@ -24,6 +25,7 @@ const HomePage = () => (
 					<div className="flex pt-8">
 						<DiReact/>
 						<DiSass/>
+						<IconGatsbyJS/>
 					</div>
 				</IconContext.Provider>
 			</div>
