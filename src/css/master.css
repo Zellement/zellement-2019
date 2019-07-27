@@ -36,10 +36,12 @@ Custom utilities
     max-height: 40px;
     fill: #635d57;
     transition: .3s;
+    border-radius: 50%;
+    overflow: visible;
   }
 
   .icons:hover {
-    opacity: 1;
+    transform: scale(1.2);
   }
 
 }
