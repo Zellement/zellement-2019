@@ -35,7 +35,6 @@ Custom utilities
     max-width: 40px;
     max-height: 40px;
     fill: #635d57;
-    opacity: .6;
     transition: .3s;
   }
 
@@ -44,19 +43,19 @@ Custom utilities
   }
 
   .icon-gatsbyjs-white {
-    fill: #1A1918;
-  }
-
-  .icon-gatsbyjs-purple {
-    fill: #635d57;
-  }
-
-  .icons:hover .icon-gatsbyjs-white {
     fill: #fff;
   }
 
-  .icons:hover .icon-gatsbyjs-purple {
+  .icon-gatsbyjs-purple {
     fill: #639;
+  }
+
+  .icon-sass {
+    fill: #CF649A;
+  }
+
+  .icon-graphql {
+    fill: #E00098;
   }
 
 }

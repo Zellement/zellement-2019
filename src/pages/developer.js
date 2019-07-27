@@ -6,6 +6,7 @@ import IconGatsbyJS from "../svgs/gatsbyjs.svg";
 import IconSass from "../svgs/sass.svg";
 import IconGraphQL from "../svgs/graphql.svg";
 import IconNetlify from "../svgs/netlify.svg";
+import IconNetlifyCMS from "../svgs/netlifycms.svg";
 
 const HomePage = () => (
   <Layout>
@@ -24,26 +25,26 @@ const HomePage = () => (
 				<div>
 
 					<h3 className="text-2xl mt-5">Sheringham Shantymen</h3>
-					<p><a target="_blank" href="https://www.shantymen.com">www.shantymen.com</a></p>
+					<p><a target="_blank" rel="noopener noreferrer" href="https://www.shantymen.com">www.shantymen.com</a></p>
 
 				</div>
 
 				<div className="align-right">
 					<div className="flex pt-3 md:pt-8">
-						<a className="self-center mr-2" target="_blank" href="https://www.gatsbyjs.org/">
-							<IconGatsbyJS className="icons"/>
+						<a aria-label="Visit GatsbyJS.org" className="self-center mr-2" target="_blank" rel="noopener noreferrer" href="https://www.gatsbyjs.org/">
+							<IconGatsbyJS title="GatsbyJS" className="icons"/>
 						</a>
-						<a className="self-center mr-2" target="_blank" href="https://graphql.org/">
-							<IconGraphQL className="icons"/>
+						<a aria-label="Visit GraphQL.org" className="self-center mr-2" target="_blank" rel="noopener noreferrer" href="https://graphql.org/">
+							<IconGraphQL title="GraphQL" className="icons"/>
 						</a>
-						<a className="self-center mr-2" target="_blank" href="https://sass-lang.com/">
-							<IconSass className="icons"/>
+						<a aria-label="Vist Sass-Lang.com" className="self-center mr-2" target="_blank" rel="noopener noreferrer" href="https://sass-lang.com/">
+							<IconSass title="Sass" className="icons"/>
 						</a>
-						<a className="self-center mr-2" target="_blank" href="https://www.netlify.com/">
-							<IconNetlify className="icons"/>
+						<a aria-label="Visit Netlify.com" className="self-center mr-2" target="_blank" rel="noopener noreferrer" href="https://www.netlify.com/">
+							<IconNetlify title="Netlify" className="icons"/>
 						</a>
-						<a className="self-center" target="_blank" href="https://www.netlifycms.org/">
-							<IconNetlify className="icons"/>
+						<a aria-label="Visit NetlifyCMS.org" className="self-center" target="_blank" rel="noopener noreferrer" href="https://www.netlifycms.org/">
+							<IconNetlifyCMS title="Netlify CMS" className="icons"/>
 						</a>
 					</div>
 				</div>
@@ -56,20 +57,6 @@ const HomePage = () => (
 
 			</div>
 
-		</div>
-
-		<div className="flex items-stretch w-100 justify-between">
-			<div>
-				<h3 className="text-2xl mt-5">Arcadia Physiotherapy</h3>
-				<p><a target="_blank" href="https://www.arcadia-therapy.com">www.arcadia-therapy.com</a></p>
-			</div>
-
-			<div className="align-right w-3">
-				<div className="flex pt-8">
-					<a className="self-center" target="_blank" href="https://en-gb.wordpress.org/"><IconWordPress className="icons mr-2"/></a>
-					<a className="self-center" target="_blank" href="https://sass-lang.com/"><IconSass className="icons"/></a>
-				</div>
-			</div>
 		</div>
 
   </Layout>
