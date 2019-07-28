@@ -5,7 +5,7 @@ const IconSass = () => {
 
 	return (
 
-		<a aria-label="Vist Sass-Lang.com" className="self-center mr-2" target="_blank" rel="noopener noreferrer" href="https://sass-lang.com/">
+		<a aria-label="Vist Sass-Lang.com" className="self-center ml-2" target="_blank" rel="noopener noreferrer" href="https://sass-lang.com/">
 			<Icon title="Sass" className="icons"/>
 		</a>
 

@@ -9,6 +9,7 @@ import IconSass from "../components/Developer/Icons/Sass.js";
 import IconNetlify from "../components/Developer/Icons/Netlify.js";
 import IconNetlifyCMS from "../components/Developer/Icons/NetlifyCMS.js";
 import IconWordPress from "../components/Developer/Icons/WordPress.js";
+import IconcPanel from "../components/Developer/Icons/cPanel.js";
 
 const HomePage = () => (
   <Layout>
@@ -23,14 +24,32 @@ const HomePage = () => (
 
 	<DevelopmentWork
 		devTitle="Sheringham Shantymen"
-		devURL="http://www.shantymen.com"
+		devURL="https://www.shantymen.com"
 		devDisplayURL="www.shantymen.com"
 		devDescription="Built using GatsbyJS and the accessible Netlify CMS, this small site was developed for a voluntary shanty group, dedicated to raising money for the RNLI.">
 		<IconGatsbyJS />
 		<IconGraphQL />
 		<IconSass />
-		<IconNetlify />
 		<IconNetlifyCMS />
+		<IconNetlify />
+	</DevelopmentWork>
+
+	<DevelopmentWork
+		devTitle="Arcadia Physiotherapy"
+		devURL="https://www.arcadia-therapy.com"
+		devDisplayURL="www.arcadia-therapy.com"
+		devDescription="A local physiotherapist needed an upgraded, smooth and easy to use experience in order to expand her brand. A custom built WordPress theme helped her keep on top of delivering excellent content to her customers.">
+		<IconWordPress />
+		<IconSass />
+	</DevelopmentWork>
+
+	<DevelopmentWork
+		devTitle="The Body Art Academy"
+		devURL="https://www.thebodyartacademy.com/"
+		devDisplayURL="www.thebodyartacademy.com"
+		devDescription="A Derby based piercing and tattoo training company that needed its own access, and a high-end looking website.">
+		<IconWordPress />
+		<IconSass />
 	</DevelopmentWork>
 
   </Layout>

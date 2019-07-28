@@ -53,6 +53,7 @@ Base
 
 body {
   @apply bg-brown-standard text-brown-feint font-standard-font;
+  min-height: 101vh;
 }
 
 h1, h2, h3, h4, h5 {
@@ -69,6 +70,9 @@ h2:after {
   @apply block w-20 h-px bg-orange-400 -mb-1 absolute bottom-0;
 }
 
+a {
+  transition: .3s;
+}
 
 /* --------------------------
 Logo

@@ -23,11 +23,11 @@ const Layout = ({ children }) => (
 			<html lang="en" />
 			<title>{data.site.siteMetadata.title}</title>
 			<meta name="description" content={data.site.siteMetadata.description} />
-			<meta name="theme-color" content="#172957" />
+			<meta name="theme-color" content="#b5aba2" />
 			<meta property="og:type" content="business.business" />
 			<meta property="og:title" content={data.site.siteMetadata.title} />
 			<meta property="og:url" content="/" />
-			<meta property="og:image" content="./src/img/logo-badge.jpg" />
+			<meta property="og:image" content="./src/images/favicon.ico" />
       		<body className="" />
 		</Helmet>
       <div className="md:flex md:flex-wrap md:justify-between">
