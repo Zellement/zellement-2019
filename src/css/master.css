@@ -135,3 +135,7 @@ Navigation
 	@apply rotate-45;
 	margin-top: 10px;
 }
+
+.navigation-wrapper .active {
+  @apply text-white;
+}

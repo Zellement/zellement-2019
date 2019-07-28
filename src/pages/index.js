@@ -8,7 +8,7 @@ const HomePage = () => (
 	<h2 className="text-3xl text-grey-light leading-none mb-8">I'm Dan Farrow.</h2>
 	<ul>
 		<li>A <AnimatedLink className="text-white" to="/developer">WordPress developer</AnimatedLink>.</li>
-		<li>A front-end developer.</li>
+		<li>A <AnimatedLink className="text-white" to="/developer">front-end developer</AnimatedLink>.</li>
 		<li>An occasional designer.</li>
 		<li>An average artist.</li>
 		<li>An experienced manager.</li>
