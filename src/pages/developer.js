@@ -3,6 +3,13 @@ import Layout from '../components/Layout'
 import AnimatedLink from "../components/AnimatedLink"
 import DevelopmentWork from "../components/Developer/DevelopmentWork.js";
 
+import IconGatsbyJS from "../components/Developer/Icons/GatsbyJS.js";
+import IconGraphQL from "../components/Developer/Icons/GraphQL.js";
+import IconSass from "../components/Developer/Icons/Sass.js";
+import IconNetlify from "../components/Developer/Icons/Netlify.js";
+import IconNetlifyCMS from "../components/Developer/Icons/NetlifyCMS.js";
+import IconWordPress from "../components/Developer/Icons/WordPress.js";
+
 const HomePage = () => (
   <Layout>
 
@@ -18,9 +25,13 @@ const HomePage = () => (
 		devTitle="Sheringham Shantymen"
 		devURL="http://www.shantymen.com"
 		devDisplayURL="www.shantymen.com"
-		devDescription="Built using GatsbyJS and the accessible Netlify CMS, this small site was developed for a voluntary shanty group, dedicated to raising money for the RNLI."
-		devIcons={['GatsbyJS','GraphQL']}
-	/>
+		devDescription="Built using GatsbyJS and the accessible Netlify CMS, this small site was developed for a voluntary shanty group, dedicated to raising money for the RNLI.">
+		<IconGatsbyJS />
+		<IconGraphQL />
+		<IconSass />
+		<IconNetlify />
+		<IconNetlifyCMS />
+	</DevelopmentWork>
 
   </Layout>
 )

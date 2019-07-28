@@ -1,21 +1,6 @@
 import React from 'react'
-import IconWordPress from "./Icons/Wordpress.js";
-import IconGatsbyJS from "./Icons/GatsbyJS.js";
-import IconSass from "./Icons/Sass.js";
-import IconGraphQL from "./Icons/GraphQL.js";
-import IconNetlify from "./Icons/Netlify.js";
-import IconNetlifyCMS from "./Icons/NetlifyCMS.js";
 
-const DevelopmentWork = ({devTitle, devURL, devDisplayURL, devDescription, devIcons}) => {
-
-/*	const array = ["GatsbyJS","World"];
-
-	for (let i = 0; i < array.length; i++) {
-		if (array[i] == "GatsbyJS") {
-	    	console.log(array[i]);
-	    	const GatsbyJSIcon = true;
-		}
-	}*/
+const DevelopmentWork = ({devTitle, devURL, devDisplayURL, devDescription, children}) => {
 
 	return (
 
@@ -34,21 +19,7 @@ const DevelopmentWork = ({devTitle, devURL, devDisplayURL, devDescription, devIc
 				<div className="align-right">
 					<div className="flex pt-3 md:pt-8">
 
-
-{/*					{
-						devIcons.map(icon => (
-					        <span key={icon}>{icon},</span>
-					    ))
-					}*/}
-
-
-
-						<IconGatsbyJS />
-						<IconGraphQL />
-						<IconSass />
-
-
-
+					{children}
 
 					</div>
 				</div>
