@@ -3,13 +3,14 @@ import Layout from '../components/Layout'
 import AnimatedLink from "../components/AnimatedLink"
 import DevelopmentWork from "../components/Developer/DevelopmentWork.js";
 
-import IconGatsbyJS from "../components/Developer/Icons/GatsbyJS.js";
-import IconGraphQL from "../components/Developer/Icons/GraphQL.js";
-import IconSass from "../components/Developer/Icons/Sass.js";
-import IconNetlify from "../components/Developer/Icons/Netlify.js";
-import IconNetlifyCMS from "../components/Developer/Icons/NetlifyCMS.js";
-import IconWordPress from "../components/Developer/Icons/WordPress.js";
-import IconcPanel from "../components/Developer/Icons/cPanel.js";
+import IconGatsbyJS from "../components/Icons/Developer/GatsbyJS.js";
+import IconGraphQL from "../components/Icons/Developer/GraphQL.js";
+import IconSass from "../components/Icons/Developer/Sass.js";
+import IconNetlify from "../components/Icons/Developer/Netlify.js";
+import IconNetlifyCMS from "../components/Icons/Developer/NetlifyCMS.js";
+import IconWordPress from "../components/Icons/Developer/WordPress.js";
+import IconcPanel from "../components/Icons/Developer/cPanel.js";
+import IconDesigner from "../components/Icons/Designer.js";
 
 const HomePage = () => (
   <Layout>
@@ -27,6 +28,7 @@ const HomePage = () => (
 		devURL="https://www.shantymen.com"
 		devDisplayURL="www.shantymen.com"
 		devDescription="Built using GatsbyJS and the accessible Netlify CMS, this small site was developed for a voluntary shanty group, dedicated to raising money for the RNLI.">
+		<IconDesigner />
 		<IconGatsbyJS />
 		<IconGraphQL />
 		<IconSass />
@@ -39,6 +41,7 @@ const HomePage = () => (
 		devURL="https://www.arcadia-therapy.com"
 		devDisplayURL="www.arcadia-therapy.com"
 		devDescription="A local physiotherapist needed an upgraded, smooth and easy to use experience in order to expand her brand. A custom built WordPress theme helped her keep on top of delivering excellent content to her customers.">
+		<IconDesigner />
 		<IconWordPress />
 		<IconSass />
 	</DevelopmentWork>
@@ -48,8 +51,32 @@ const HomePage = () => (
 		devURL="https://www.thebodyartacademy.com/"
 		devDisplayURL="www.thebodyartacademy.com"
 		devDescription="A Derby based piercing and tattoo training company that needed its own access, and a high-end looking website.">
+		<IconDesigner />
 		<IconWordPress />
 		<IconSass />
+		<IconcPanel />
+	</DevelopmentWork>
+
+	<DevelopmentWork
+		devTitle="Sheringham Lifeboat"
+		devURL="https://www.sheringhamlifeboat.co.uk/"
+		devDisplayURL="www.sheringhamlifeboat.co.uk"
+		devDescription="Built for the RNLI on the east coast, the Sheringham Lifeboat website was developed in WordPress and allows for those part of the crew to inform visitors of both current equipment and upcoming events.">
+		<IconDesigner />
+		<IconWordPress />
+		<IconSass />
+		<IconcPanel />
+	</DevelopmentWork>
+
+	<DevelopmentWork
+		devTitle="Burntwood Group"
+		devURL="https://www.burntwoodgroup.com/"
+		devDisplayURL="www.burntwoodgroup.com"
+		devDescription="A website in order to help increase leads sent to a drainage company, this was built with WordPress so that the client could keep it up to date as their business needs changed.">
+		<IconDesigner />
+		<IconWordPress />
+		<IconSass />
+		<IconcPanel />
 	</DevelopmentWork>
 
   </Layout>
