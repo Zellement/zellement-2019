@@ -11,7 +11,7 @@ const DevelopmentWork = ({devTitle, devURL, devDisplayURL, devDescription, child
 				<div>
 
 					<h3 className="text-2xl mt-5">{devTitle}</h3>
-					<p><a className="hover:text-white" target="_blank" rel="noopener noreferrer" href={devURL}>{devDisplayURL}</a></p>
+					<p><a className="hover:text-white text-brown-light" target="_blank" rel="noopener noreferrer" href={devURL}>{devDisplayURL}</a></p>
 
 				</div>
 
