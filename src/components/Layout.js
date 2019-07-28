@@ -30,7 +30,7 @@ const Layout = ({ children }) => (
 			<meta property="og:image" content="./src/images/favicon.ico" />
       		<body className="" />
 		</Helmet>
-      <div className="md:flex md:flex-wrap md:justify-between">
+      <div className="md:flex md:flex-wrap md:justify-end">
         <Header siteTitle={data.site.siteMetadata.title} />
         <main className="pt-8 mt-12 md:mt-0 md:w-2/3 lg:w-3/4">
           <div className="container mx-auto px-4 md:p-10 lg:p-16">
