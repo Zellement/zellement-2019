@@ -6,9 +6,9 @@ import Img from 'gatsby-image';
 
 const DesignerPage = props => (
 
-	  <Layout>
+	<Layout>
 
-	  	<div className="max-w-3xl">
+		<div className="max-w-3xl">
 		  	<p className="text-md tracking-wider font-color-font"><AnimatedLink to="/">Dan Farrow</AnimatedLink> > Designer</p>
 			<h1 className="text-5xl text-grey-light mb-8">Designer.</h1>
 			<p className="py-3 text-lg">I've been designing websites since the late nineties, when <em>web designer</em> and <em>webmaster</em> were the catch all roles. I have lived through iterations of fixed width, responsive, mobile-first, gradients, no gradients, drop shadows, no drop shadows, gradients again...</p>
@@ -23,7 +23,7 @@ const DesignerPage = props => (
 
 		</div>
 
-	  </Layout>
+	</Layout>
 
 )
 

@@ -2,7 +2,7 @@ import React from "react"
 import AnimatedLink from "../components/AnimatedLink"
 
 const Logo = () => (
-  <div className="p-2">
+  <div className="pt-2 pl-2 pr-2 pb-1">
     <AnimatedLink to="/" className="text-centre" title="Go home">
     	<svg className="logo fill-current text-brown-light m-3 md:ml-auto" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 	viewBox="0 0 459.8 290.8" xmlSpace="preserve">
