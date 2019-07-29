@@ -4,6 +4,11 @@ import Layout from '../components/Layout'
 import AnimatedLink from "../components/AnimatedLink"
 import Img from 'gatsby-image';
 
+import DesignerWork from "../components/Designer/DesignerWork.js";
+
+import IconPhotoshop from "../components/Icons/Designer/Photoshop.js";
+import IconDeveloper from "../components/Icons/Developer.js";
+
 const DesignerPage = props => (
 
 	<Layout>
@@ -15,11 +20,16 @@ const DesignerPage = props => (
 			<p className="pb-3 text-md">It's safe to say I've seen a lot of change in the industry as regards design. Although I no longer class myself as a designer, I still dabble occasionally, particularly for freelance.</p>
 			<h2 className="text-3xl text-grey-light mb-4 mt-4">Web Design</h2>
 
-			<Img fluid={props.data.arcadiaOne.childImageSharp.fluid} />
+      <DesignerWork
+        devTitle="Arcadia Physiotherapy"
+        devURL="https://arcadia-therapy.com/"
+        devDisplayURL="www.arcadia-therapy.com"
+        devDescription="Arcadia design spec.">
+        <IconPhotoshop />
+        <IconDeveloper />
+      </DesignerWork>
 
-			<Img fluid={props.data.arcadiaTwo.childImageSharp.fluid} />
-
-			<h2 className="text-3xl text-grey-light mb-4 mt-4">Logo Design</h2>
+      <Img fluid={props.data.arcadiaTwo.childImageSharp.fluid} />
 
 		</div>
 
