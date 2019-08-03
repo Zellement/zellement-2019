@@ -1,5 +1,12 @@
 module.exports = {
   theme: {
+    inset: {
+      '0': '0',
+      '1': '1rem',
+      '2': '2rem',
+      '3': '3rem',
+      '4': '4rem',
+    },
     screens: {
       sm: '640px',
       md: '768px',

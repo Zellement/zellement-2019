@@ -19,11 +19,17 @@ const Page = props => (
 
 		<p className="max-w-lg mb-4">Since 2011, I have been the guitarist for a Nottingham based metal band called <em><a className="text-white" target="_blank" rel="noopener noreferrer" href="http://www.ropewalkband.com">Ropewalk</a></em>.</p>
 
-		<p className="max-w-lg mb-8">I'm a massive metal fan, and a self-taught guitarist since I was a teenager. I learned tab to start off, and still only know about 3 chords. Our singer left in 2016, and since then I've taken on the vocals role too.</p>
+		<p className="max-w-lg mb-8">I'm a self-taught guitarist since picking up a brand new <em>Jay Turser</em> 6 string in my late teens. I learned tab to start off, and still only know about 3 chords. Our singer left in 2016, and since then I've taken on the vocals role too.</p>
 
-      			<Img className="w-100 max-w-sm mr-auto" fluid={props.data.ropewalkOne.childImageSharp.fluid} />
-      
-      			<Img className="w-100 max-w-sm ml-auto -mt-10 sm:-mt-24 mb-4 lg:-mt-40 xl:-mt-56 xl:mr-10" fluid={props.data.ropewalkTwo.childImageSharp.fluid} />
+    <div className="relative">
+
+  			<Img className="w-100 max-w-sm mr-auto xl:max-w-md" fluid={props.data.ropewalkOne.childImageSharp.fluid} />
+
+        <p className="border-orange-400 border-l-2 p-8 font-color-font text-white bg-brown-standard sm:absolute sm:top-4 sm:right-0 sm:max-w-sm sm:pr-0 sm:mt-64 md:text-xl md:-pl-16 md:bg-transparent lg:pt-6 lg:top-0 xl:mt-48 xl:text-2xl">I've since "upgraded" my Jay Turser to an ESP LTD Explorer style, tuned to Dropped C, using Ernie Ball strings.</p>
+  
+  			<Img className="w-100 max-w-sm ml-auto sm:-mt-10 sm:-mt-24 mb-4 lg:-mt-40 xl:-mt-56" fluid={props.data.ropewalkTwo.childImageSharp.fluid} />
+
+    </div>
 		
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Violinist</h2>
 
