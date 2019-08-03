@@ -1,17 +1,19 @@
 import React from 'react'
 
-const DevelopmentWork = ({devTitle, devURL, devDisplayURL, devDescription, children}) => {
+import { GoLinkExternal } from 'react-icons/go';
+
+const DevelopmentWork = ({devTitle, devURL, devDisplayURL, devDescription, devClasses, children}) => {
 
 	return (
 
-		<div className="border-b border-orange-800 pb-8">
+		<div className={"border-b border-orange-800 pb-8 " + devClasses}>
 
 			<div className="flex flex-col lg:flex-row lg:flex-wrap items-stretch w-100 justify-between">
 
 				<div>
 
 					<h3 className="text-2xl mt-5">{devTitle}</h3>
-					<p><a className="hover:text-white text-brown-light" target="_blank" rel="noopener noreferrer" href={devURL}>{devDisplayURL}</a></p>
+					<p><a className="hover:text-white text-brown-light" target="_blank" rel="noopener noreferrer" href={devURL}>{devDisplayURL} <GoLinkExternal className="inline" /></a></p>
 
 				</div>
 
