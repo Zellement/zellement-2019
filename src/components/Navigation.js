@@ -1,5 +1,6 @@
 import React from 'react'
 import AnimatedLink from "../components/AnimatedLink"
+import Social from "./Social"
 
 const Navigation = class extends React.Component {
 
@@ -28,6 +29,9 @@ const Navigation = class extends React.Component {
             <li><AnimatedLink className="text-brown-feint block md:text-right" activeClassName="active" to="/other">Other</AnimatedLink></li>
             <li><AnimatedLink className="text-brown-feint block md:text-right" activeClassName="active" to="/contact">Contact</AnimatedLink></li>
         </ul>
+        <Social />
+      </div>
+      <div>
       </div>
       <div className={`${burgerActive} navigation-button w-12 h-12 block fixed top-0 right-0 bg-brown-light z-10 cursor-pointer md:hidden`} onClick={this.toggleMenu}>
         <div className={`relative w-full h-full z-100 ${burgerActive}`}>
