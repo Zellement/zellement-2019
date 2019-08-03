@@ -37,7 +37,7 @@ const Page = props => (
 
 		<p className="max-w-lg mb-8">So in early 2019, I bought my first violin and started the long road of self-teaching myself how to play it, so that I can emulate some of the amazing layered music I hear in film and TV.</p>
 
-      			<Img className="w-100" fluid={props.data.violinOne.childImageSharp.fluid} />
+      			<Img className="w-100 max-w-md" fluid={props.data.violinOne.childImageSharp.fluid} />
 
 	</div>
 

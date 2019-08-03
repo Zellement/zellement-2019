@@ -33,6 +33,8 @@ module.exports = {
           light: '#635d57',
           standard: '#1A1918',
           dark: '#141210',
+          'standard-50': 'rgba(26, 25, 24, 0.5)',
+          'standard-80': 'rgba(26, 25, 24, 0.8)',
         },
         grey: {
           light: '#eee',
