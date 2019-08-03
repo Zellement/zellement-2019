@@ -12,8 +12,8 @@ const Page = props => (
   	<div className="max-w-3xl">
 	  	<p className="text-md tracking-wider font-color-font"><AnimatedLink to="/">Dan Farrow</AnimatedLink> > Musician</p>
 		<h1 className="text-5xl text-grey-light mb-8">Musician.</h1>
-		<p className="py-3 text-lg">I'm hugely into a select few genres of music, but mostly a massive metalhead. From old school metal bands like <a className="text-white" target="_blank" rel="noopener noreferrer" href="https://www.slayer.net">Slayer</a> and <a className="text-white" target="_blank" rel="noopener noreferrer" href="https://www.metallica.com">Metallica</a>, all the way through to heavier bands such as <a className="text-white" target="_blank" rel="noopener noreferrer" href="https://www.lamb-of-god.com/">Lamb of God</a>, <a className="text-white" target="_blank" rel="noopener noreferrer" href="https://behemoth.pl/">Behemoth</a> and Pantera.</p>
-		<p className="pb-3 text-md">In addition to metal, I've found myself listening to a lot of "modern classical", much of which consists of film and TV music. I can't get enough of my <a className="text-white" target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/42p1sRbO9jR4wFq8LDnAXh/">self-proclaimed classical playlist</a> on Spotify, a lot which comes in the form on Hans Zimmer.</p>
+		<p className="py-3 text-lg max-w-3xl">I'm hugely into a select few genres of music, but mostly a massive metalhead. From old school metal bands like <a className="text-white" target="_blank" rel="noopener noreferrer" href="https://www.slayer.net">Slayer</a> and <a className="text-white" target="_blank" rel="noopener noreferrer" href="https://www.metallica.com">Metallica</a>, all the way through to heavier bands such as <a className="text-white" target="_blank" rel="noopener noreferrer" href="https://www.lamb-of-god.com/">Lamb of God</a>, <a className="text-white" target="_blank" rel="noopener noreferrer" href="https://behemoth.pl/">Behemoth</a> and Pantera.</p>
+		<p className="pb-3 text-md max-w-3xl">In addition to metal, I've found myself listening to a lot of "modern classical", much of which consists of film and TV music. I can't get enough of my <a className="text-white" target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/42p1sRbO9jR4wFq8LDnAXh/">self-proclaimed classical playlist</a> on Spotify, a lot which comes in the form on Hans Zimmer.</p>
 		
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Guitarist</h2>
 
@@ -37,7 +37,13 @@ const Page = props => (
 
 		<p className="max-w-lg mb-8">So in early 2019, I bought my first violin and started the long road of self-teaching myself how to play it, so that I can emulate some of the amazing layered music I hear in film and TV.</p>
 
-      			<Img className="w-100 max-w-md" fluid={props.data.violinOne.childImageSharp.fluid} />
+    <div className="relative">
+
+      	<Img className="w-100 max-w-md mx-auto" fluid={props.data.violinOne.childImageSharp.fluid} />
+
+        <p className="border-orange-400 max-w-md mx-auto border-l-2 p-8 font-color-font text-white bg-brown-standard-80 sm:absolute sm:bottom-0 sm:right-0 sm:max-w-sm sm:pr-0  md:text-xl xl:text-2xl">I'm following online video tutorials to improve at violin.</p>
+
+    </div>
 
 	</div>
 
