@@ -25,35 +25,64 @@ const DesignerPage = props => {
   			<p className="pb-3 text-md max-w-3xl">It's safe to say I've seen a lot of change in the industry as regards design. Although I no longer class myself as a designer, I still dabble occasionally, particularly for freelance.</p>
   			<h2 className="text-3xl text-grey-light mb-4 mt-4">Web Design</h2>
 
+        {/* 
+          --------------------------------------------------------
+          The Body Art Academy
+          --------------------------------------------------------
+        */}
+
+        <DesignerWork
+          devTitle="The Body Art Academy"
+          devURL="https://www.thebodyartacademy.com/"
+          devDisplayURL="www.thebodyartacademy.com"
+          devDescription="The design for The Body Art Academy needed to be somewhat stylish to match the type of customers they wanted to attract, so a modern, clean look with juxtaposition images and text was designed to do just that. This was a brand new website, so was designed from scratch.">
+          <IconDeveloper />
+          <IconPhotoshop />
+        </DesignerWork>
+
+        <Img className="shadow-lg mt-4 mx-auto md:mr-auto md:ml-0 md:max-w-xl lg:max-w-md xl:max-w-xl" fluid={props.data.tbaaOne.childImageSharp.fluid} />
+
+        <Img className="shadow-lg mx-auto md:mr-0 pb-8 md:ml-auto md:max-w-xl lg:-mt-24 lg:max-w-md xl:-mt-56" fluid={props.data.tbaaTwo.childImageSharp.fluid} />
+
+        <Img className="shadow-lg mx-auto md:mr-auto pb-8 md:ml-0 md:max-w-xl lg:-mt-24 lg:max-w-sm xl:-mt-40" fluid={props.data.tbaaThree.childImageSharp.fluid} />
+
+        <div className="border-b border-orange-800 pb-10 max-w-3xl"></div>
+
+        {/* 
+          --------------------------------------------------------
+          Arcadia
+          --------------------------------------------------------
+        */}
+
         <DesignerWork
           devTitle="Arcadia Physiotherapy"
           devURL="https://arcadia-therapy.com/"
-          devDisplayURL="www.arcadia-therapy.com"
-          devDescription="Arcadia's design had become dated ">
-          <IconPhotoshop />
+          devDisplayURL="arcadia-therapy.com"
+          devDescription="Arcadia's design had become dated, sporting some odd behaviours and broken layouts over years of changes and updates. Arcadia wanted a fresh design to begin their 2019, but also something easy to use for their existing clientele.">
           <IconDeveloper />
+          <IconPhotoshop />
         </DesignerWork>
 
         <div className="relative absolute-image-wrapper max-w-3xl">
 
-            <Img className="absolute-image max-w-3xl z-0 top-0 left-0" fluid={props.data.arcadiaBefore.childImageSharp.fluid} />
+            <Img className="shadow-lg absolute-image max-w-3xl z-0 top-0 left-0" fluid={props.data.arcadiaBefore.childImageSharp.fluid} />
 
-            <p className="absolute top-2 right-0 z-0 bg-brown-standard p-3">Original</p>
+            <p className="absolute top-2 right-0 z-0 bg-brown-standard text-brown-feint p-3">Original</p>
 
           <ImageShowHide>
 
-            <Img className="absolute-image max-w-3xl z-10 top-0 left-0" fluid={props.data.arcadiaOne.childImageSharp.fluid} />
+            <Img className="shadow-lg absolute-image max-w-3xl z-10 top-0 left-0" fluid={props.data.arcadiaOne.childImageSharp.fluid} />
 
-            <p className="absolute top-2 right-0 z-10 bg-brown-standard p-3">New</p>
+            <p className="absolute top-2 right-0 z-10 bg-brown-standard text-brown-feint p-3">New</p>
 
           </ImageShowHide>
 
         </div>
 
 
-        <Img className="mt-4 mx-auto md:mr-0 md:ml-auto md:max-w-xl lg:max-w-md xl:max-w-xl" fluid={props.data.arcadiaTwo.childImageSharp.fluid} />
+        <Img className="shadow-lg mt-4 mx-auto md:mr-0 md:ml-auto md:max-w-xl lg:max-w-md xl:max-w-xl" fluid={props.data.arcadiaTwo.childImageSharp.fluid} />
 
-        <Img className="mx-auto md:mr-auto md:ml-0 md:max-w-xl lg:-mt-24 lg:max-w-md xl:-mt-56" fluid={props.data.arcadiaThree.childImageSharp.fluid} />
+        <Img className="shadow-lg mx-auto md:mr-auto md:ml-0 md:max-w-xl lg:-mt-24 lg:max-w-md xl:-mt-56" fluid={props.data.arcadiaThree.childImageSharp.fluid} />
 
   		</div>
 
@@ -76,6 +105,15 @@ export const fluidImage = graphql`
 
 export const pageQuery = graphql`
   query {
+    tbaaOne: file(relativePath: { eq: "designs/thebodyartacademy-01.jpg" }) {
+      ...fluidImageDesigner
+    }
+    tbaaTwo: file(relativePath: { eq: "designs/thebodyartacademy-02.jpg" }) {
+      ...fluidImageDesigner
+    }
+    tbaaThree: file(relativePath: { eq: "designs/thebodyartacademy-03.jpg" }) {
+      ...fluidImageDesigner
+    }
     arcadiaBefore: file(relativePath: { eq: "designs/arcadia-therapy-before.jpg" }) {
       ...fluidImageDesigner
     }

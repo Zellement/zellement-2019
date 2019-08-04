@@ -6,7 +6,7 @@ const DesignerWork = ({devTitle, devURL, devDisplayURL, devDescription, children
 
 	return (
 
-		<div className="border-b border-orange-800 pb-8 max-w-3xl">
+		<div className="pb-8 max-w-3xl">
 
 			<div className="flex flex-col lg:flex-row lg:flex-wrap items-stretch w-100 justify-between">
 
