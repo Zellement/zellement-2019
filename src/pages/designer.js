@@ -4,12 +4,12 @@ import Layout from '../components/Layout'
 import AnimatedLink from "../components/AnimatedLink"
 import Img from 'gatsby-image';
 
-//import ImageSlider from '../scripts/image-slider.js';
 import ImageShowHide from '../components/ImageShowHide.js';
 
 import DesignerWork from "../components/Designer/DesignerWork.js";
 
 import IconPhotoshop from "../components/Icons/Designer/Photoshop.js";
+import IconAdobeXD from "../components/Icons/Designer/AdobeXD.js";
 import IconDeveloper from "../components/Icons/Developer.js";
 
 const DesignerPage = props => {
@@ -45,6 +45,44 @@ const DesignerPage = props => {
         <Img className="shadow-lg mx-auto md:mr-0 pb-8 md:ml-auto md:max-w-xl lg:-mt-24 lg:max-w-md xl:-mt-56" fluid={props.data.tbaaTwo.childImageSharp.fluid} />
 
         <Img className="shadow-lg mx-auto md:mr-auto pb-8 md:ml-0 md:max-w-xl lg:-mt-24 lg:max-w-sm xl:-mt-40" fluid={props.data.tbaaThree.childImageSharp.fluid} />
+
+        <div className="border-b border-orange-800 pb-10 max-w-3xl"></div>
+
+        {/* 
+          --------------------------------------------------------
+          Shantymen
+          --------------------------------------------------------
+        */}
+
+        <DesignerWork
+          devTitle="Sheringham Shantymen"
+          devURL="https://www.shantymen.com/"
+          devDisplayURL="www.shantymen.com"
+          devDescription="This was a redesign of my own work, originally built circa 2015. The functionality and layout of the site was tired, so a fresh redesign and build was needed to keep the group's internet presence professional and modern.">
+          <IconDeveloper />
+          <IconAdobeXD />
+        </DesignerWork>
+
+        <div className="relative absolute-image-wrapper max-w-3xl">
+
+            <Img className="shadow-lg absolute-image max-w-3xl z-0 top-0 left-0" fluid={props.data.shantymenBefore.childImageSharp.fluid} />
+
+            <p className="absolute top-2 right-0 z-0 bg-brown-standard text-brown-feint p-3">Original</p>
+
+          <ImageShowHide>
+
+            <Img className="shadow-lg absolute-image max-w-3xl z-10 top-0 left-0" fluid={props.data.shantymenOne.childImageSharp.fluid} />
+
+            <p className="absolute top-2 right-0 z-10 bg-brown-standard text-brown-feint p-3">New</p>
+
+          </ImageShowHide>
+
+        </div>
+
+
+        <Img className="shadow-lg mt-4 mx-auto md:mr-0 md:ml-auto md:max-w-xl lg:max-w-md xl:max-w-xl" fluid={props.data.shantymenTwo.childImageSharp.fluid} />
+
+        <Img className="shadow-lg mx-auto md:mr-auto md:ml-0 md:max-w-xl lg:-mt-24 lg:max-w-md xl:-mt-56" fluid={props.data.shantymenThree.childImageSharp.fluid} />
 
         <div className="border-b border-orange-800 pb-10 max-w-3xl"></div>
 
@@ -112,6 +150,18 @@ export const pageQuery = graphql`
       ...fluidImageDesigner
     }
     tbaaThree: file(relativePath: { eq: "designs/thebodyartacademy-03.jpg" }) {
+      ...fluidImageDesigner
+    }
+    shantymenBefore: file(relativePath: { eq: "designs/shantymen-before.jpg" }) {
+      ...fluidImageDesigner
+    }
+    shantymenOne: file(relativePath: { eq: "designs/shantymen-01.jpg" }) {
+      ...fluidImageDesigner
+    }
+    shantymenTwo: file(relativePath: { eq: "designs/shantymen-02.jpg" }) {
+      ...fluidImageDesigner
+    }
+    shantymenThree: file(relativePath: { eq: "designs/shantymen-03.jpg" }) {
       ...fluidImageDesigner
     }
     arcadiaBefore: file(relativePath: { eq: "designs/arcadia-therapy-before.jpg" }) {
