@@ -96,9 +96,9 @@ const DesignerPage = props => {
           devTitle="Sheringham Lifeboat"
           devURL="https://www.sheringhamlifeboat.co.uk/"
           devDisplayURL="www.sheringhamlifeboat.co.uk"
-          devDescription=".">
+          devDescription="An old school, left aligned site was the predecessor, and even in 2014 it was looking very dated. Sheringham Lifeboat are lucky to be aligned with a professional photographer, so taking their photos and working up a new design was a simple enough process.">
           <IconDeveloper />
-          <IconAdobeXD />
+          <IconPhotoshop />
         </DesignerWork>
 
         <div className="relative absolute-image-wrapper max-w-3xl">
