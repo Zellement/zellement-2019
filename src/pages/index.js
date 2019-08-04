@@ -9,11 +9,11 @@ const HomePage = () => (
 	<ul>
 		<li>A <AnimatedLink className="text-white" to="/developer">WordPress developer</AnimatedLink>.</li>
 		<li>A <AnimatedLink className="text-white" to="/developer">front-end developer</AnimatedLink>.</li>
-		<li>An occasional designer.</li>
-		<li>An average artist.</li>
-		<li>An experienced manager.</li>
-		<li>A budding musician.</li>
-		<li>And other things.</li>
+		<li>An occasional <AnimatedLink className="text-white" to="/designer">designer</AnimatedLink>.</li>
+		<li>An average <AnimatedLink className="text-white" to="/artist">artist</AnimatedLink>.</li>
+		<li>An experienced <AnimatedLink className="text-white" to="/manager">manager</AnimatedLink>.</li>
+		<li>A budding <AnimatedLink className="text-white" to="/musician">musician</AnimatedLink>.</li>
+		<li>And a simple <AnimatedLink className="text-white" to="/hobbyist">hobbyist</AnimatedLink>.</li>
 	</ul>
   </Layout>
 )
