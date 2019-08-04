@@ -34,32 +34,26 @@ const DesignerPage = props => {
           <IconDeveloper />
         </DesignerWork>
 
-{/*        <div className="wrapper">
-          <div className="before">
-            <img alt="yo" className="content-image" src="https://farm2.staticflickr.com/1638/26145024230_06acd55d1b_b.jpg" draggable="false"/>   </div>
-          <div className="after">
-            <img alt="yo" className="content-image" src="https://farm2.staticflickr.com/1663/25814974803_d4c55ff708_b.jpg" draggable="false"/>
-          </div>
-          <div className="scroller">
-            <svg className="scroller__thumb" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><polygon points="0 50 37 68 37 32 0 50" /><polygon points="100 50 64 32 64 68 100 50" /></svg>
-          </div>
-        </div>*/}
-
-        <div className="relative absolute-image-wrapper">
+        <div className="relative absolute-image-wrapper max-w-3xl">
 
             <Img className="absolute-image max-w-3xl z-0 top-0 left-0" fluid={props.data.arcadiaBefore.childImageSharp.fluid} />
 
+            <p className="absolute top-2 right-0 z-0 bg-brown-standard p-3">Original</p>
+
           <ImageShowHide>
 
-          <Img className="absolute-image max-w-3xl z-10 top-0 left-0" fluid={props.data.arcadiaOne.childImageSharp.fluid} />
+            <Img className="absolute-image max-w-3xl z-10 top-0 left-0" fluid={props.data.arcadiaOne.childImageSharp.fluid} />
+
+            <p className="absolute top-2 right-0 z-10 bg-brown-standard p-3">New</p>
 
           </ImageShowHide>
 
         </div>
 
 
+        <Img className="mt-4 mx-auto md:mr-0 md:ml-auto md:max-w-xl lg:max-w-md xl:max-w-xl" fluid={props.data.arcadiaTwo.childImageSharp.fluid} />
 
-{/*        <Img className="max-w-md ml-auto -mt-10 md:max-w-2xl md:-mt-24" fluid={props.data.arcadiaTwo.childImageSharp.fluid} />*/}
+        <Img className="mx-auto md:mr-auto md:ml-0 md:max-w-xl lg:-mt-24 lg:max-w-md xl:-mt-56" fluid={props.data.arcadiaThree.childImageSharp.fluid} />
 
   		</div>
 
@@ -89,6 +83,9 @@ export const pageQuery = graphql`
       ...fluidImageDesigner
     }
     arcadiaTwo: file(relativePath: { eq: "designs/arcadia-therapy-02.jpg" }) {
+      ...fluidImageDesigner
+    }
+    arcadiaThree: file(relativePath: { eq: "designs/arcadia-therapy-03.jpg" }) {
       ...fluidImageDesigner
     }
   }

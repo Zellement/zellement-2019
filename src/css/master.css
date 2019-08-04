@@ -144,6 +144,9 @@ Navigation
   height: 500px;
 } 
 
+.absolute-image-holder {
+  transition: .3s;
+}
 .absolute-image {
   position: absolute!important;
   width: 100%;

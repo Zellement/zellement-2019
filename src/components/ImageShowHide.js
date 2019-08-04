@@ -12,17 +12,17 @@ const ImageShowHide = class extends React.Component {
 
 	render() {
 
-		const newImage = this.state.showOld ? 'hidden' : 'block';
+		const newImage = this.state.showOld ? 'opacity-0' : 'opacity-100';
 
 		return (
 
 			<div>
 
-				<div className="absolute bottom-0 font-color-font left-0 z-50 bg-white text-black p-2 bg-brown-standard text-brown-feint cursor-pointer" onClick={this.toggleImage}>
-					Show original design
+				<div className="absolute bottom-0 font-color-font left-0 z-50 bg-white text-black p-2 bg-orange-700 text-white cursor-pointer" onClick={this.toggleImage}>
+					<span className="display-text">Toggle Designs</span>
 				</div>
 
-				<div className={newImage}>
+				<div className={"absolute-image-holder " + newImage}>
 
 					{this.props.children}
 
