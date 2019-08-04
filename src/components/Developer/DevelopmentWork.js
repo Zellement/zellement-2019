@@ -8,7 +8,7 @@ const DevelopmentWork = ({devTitle, devURL, devDisplayURL, devDescription, devCl
 
 		<div className={"border-b border-orange-800 pb-8 " + devClasses}>
 
-			<div className="flex flex-col lg:flex-row lg:flex-wrap items-stretch w-100 justify-between">
+			<div className="flex flex-col lg:flex-row lg:flex-wrap items-stretch w-100 justify-between max-w-3xl">
 
 				<div>
 

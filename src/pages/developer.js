@@ -41,7 +41,7 @@ const HomePage = () => (
 		devTitle="Arcadia Physiotherapy"
 		devURL="https://www.arcadia-therapy.com"
 		devDisplayURL="www.arcadia-therapy.com"
-		devDescription="A local physiotherapist needed an upgraded, smooth and easy to use experience in order to expand her brand. A custom built WordPress theme helped her keep on top of delivering excellent content to her customers.">
+		devDescription="Arcadia were running an old, slow WordPress build from a few years ago. In actively using and improving their site, more and more functionality was added to the site in the form of plugins, draining the site's speed. An upgrade was needed so I worked with Arcadia to deliver a custom built WordPress theme that is easy to update from the backend.">
 		<IconDesigner />
 		<IconWordPress />
 		<IconSass />
