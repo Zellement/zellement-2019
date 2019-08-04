@@ -20,13 +20,11 @@ module.exports = {
     `gatsby-plugin-sass`,
     `gatsby-plugin-postcss`,
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: 'gatsby-plugin-web-font-loader',
       options: {
-        fonts: [
-          `Cormorant SC`,
-          `PT Sans`,
-        ],
-        display: 'swap'
+        google: {
+          families: ['Cormorant SC', 'PT Sans']
+        }
       }
     },
     {
