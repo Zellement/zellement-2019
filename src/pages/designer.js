@@ -88,6 +88,42 @@ const DesignerPage = props => {
 
         {/* 
           --------------------------------------------------------
+          Shantymen
+          --------------------------------------------------------
+        */}
+
+        <DesignerWork
+          devTitle="Sheringham Lifeboat"
+          devURL="https://www.sheringhamlifeboat.co.uk/"
+          devDisplayURL="www.sheringhamlifeboat.co.uk"
+          devDescription=".">
+          <IconDeveloper />
+          <IconAdobeXD />
+        </DesignerWork>
+
+        <div className="relative absolute-image-wrapper max-w-3xl">
+
+            <Img className="shadow-lg absolute-image max-w-3xl z-0 top-0 left-0" fluid={props.data.sheringhamlifeboatBefore.childImageSharp.fluid} />
+
+            <p className="absolute top-2 right-0 z-0 bg-brown-standard text-brown-feint p-3">Original</p>
+
+          <ImageShowHide>
+
+            <Img className="shadow-lg absolute-image max-w-3xl z-10 top-0 left-0" fluid={props.data.sheringhamlifeboatOne.childImageSharp.fluid} />
+
+            <p className="absolute top-2 right-0 z-10 bg-brown-standard text-brown-feint p-3">New</p>
+
+          </ImageShowHide>
+
+        </div>
+
+
+        <Img className="shadow-lg mt-4 mx-auto md:mr-auto" fluid={props.data.sheringhamlifeboatTwo.childImageSharp.fluid} />
+
+        <div className="border-b border-orange-800 pb-10 max-w-3xl"></div>
+
+        {/* 
+          --------------------------------------------------------
           Arcadia
           --------------------------------------------------------
         */}
@@ -162,6 +198,15 @@ export const pageQuery = graphql`
       ...fluidImageDesigner
     }
     shantymenThree: file(relativePath: { eq: "designs/shantymen-03.jpg" }) {
+      ...fluidImageDesigner
+    }
+    sheringhamlifeboatBefore: file(relativePath: { eq: "designs/sheringham-lifeboat-before.jpg" }) {
+      ...fluidImageDesigner
+    }
+    sheringhamlifeboatOne: file(relativePath: { eq: "designs/sheringham-lifeboat-01.jpg" }) {
+      ...fluidImageDesigner
+    }
+    sheringhamlifeboatTwo: file(relativePath: { eq: "designs/sheringham-lifeboat-02.jpg" }) {
       ...fluidImageDesigner
     }
     arcadiaBefore: file(relativePath: { eq: "designs/arcadia-therapy-before.jpg" }) {
