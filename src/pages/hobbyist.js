@@ -38,14 +38,22 @@ const Page = props => (
       <Img className="w-100 max-w-md" fluid={props.data.ffx.childImageSharp.fluid} />
       <Img className="w-100 max-w-md ml-auto -mt-10 md:-mt-12" fluid={props.data.me2.childImageSharp.fluid} />
 
-        <p className="border-orange-400 z-50 border-l-2 p-8 font-color-font text-white bg-brown-standard sm:absolute sm:bottom-19 sm:right-1 sm:max-w-sm sm:pr-0 md:text-xl md:max-w-md md:bottom-23 md:bg-transparent lg:max-w-sm lg:bottom-18 xl:text-2xl xl:bottom-16">Final Fantasy X, Mass Effect, the Batman: Arkham series and The Last of Us.</p>
+        <p className="border-orange-400 z-50 border-l-2 p-8 font-color-font text-white bg-brown-standard sm:absolute sm:bottom-19 sm:right-1 sm:max-w-sm sm:pr-0 md:text-xl md:max-w-md md:bottom-23 md:bg-transparent lg:max-w-sm lg:bottom-18 xl:text-2xl xl:bottom-17">Final Fantasy X, Mass Effect, the Batman: Arkham series and The Last of Us.</p>
 
       <Img className="w-100 max-w-md sm:-mt-10 md:-mt-12" fluid={props.data.arkhamCity.childImageSharp.fluid} />
       <Img className="w-100 max-w-md ml-auto -mt-10 md:-mt-12" fluid={props.data.lastOfUs.childImageSharp.fluid} />
 
     </div>
 
-		<h2 className="text-3xl text-grey-light mb-4 mt-4">Nottingham Forest</h2>
+    <div className="relative">
+
+        <p className="border-orange-400 z-50 border-l-2 p-8 font-color-font text-white bg-brown-standard sm:absolute sm:top-20 sm:right-1 sm:max-w-sm sm:pr-0 md:text-xl md:max-w-md lg:bg-transparent lg:max-w-lg xl:text-2xl xl:top-16">I'm also a huge fan of putting people in the PSVR and watching them scream as a shark attacks their diving cage, or fly like an eagle across Rome.</p>
+
+      <Img className="w-100 max-w-xs mx-auto sm:ml-0" fluid={props.data.psvr.childImageSharp.fluid} />
+
+    </div>
+
+		<h2 className="text-3xl text-grey-light mb-4 mt-6">Nottingham Forest</h2>
 
     <p className="py-3 my-4">I'm a season card holder at Nottingham Forest, because I just love being disappointed in life <FaRegMeh className="inline"/>. Since moving to Nottingham in circa 2007, I have adopted the city as my home, and have since embraced Forest.</p>
 
@@ -111,6 +119,9 @@ export const pageQuery = graphql`
       ...fluidImage
     }
     lastOfUs: file(relativePath: { eq: "hobbyist/games/last-of-us.jpg" }) {
+      ...fluidImage
+    }
+    psvr: file(relativePath: { eq: "hobbyist/games/psvr.jpg" }) {
       ...fluidImage
     }
     nffcOne: file(relativePath: { eq: "hobbyist/nffc/nffc-01.jpg" }) {
