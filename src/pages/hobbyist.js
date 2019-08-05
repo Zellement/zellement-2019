@@ -38,7 +38,7 @@ const Page = props => (
       <Img className="w-100 max-w-md" fluid={props.data.ffx.childImageSharp.fluid} />
       <Img className="w-100 max-w-md ml-auto -mt-10 md:-mt-12" fluid={props.data.me2.childImageSharp.fluid} />
 
-        <p className="border-orange-400 z-50 border-l-2 p-8 font-color-font text-white bg-brown-standard sm:absolute sm:bottom-19 sm:right-1 sm:max-w-sm sm:pr-0 md:text-xl md:max-w-md md:bottom-23 md:bg-transparent lg:max-w-sm lg:bottom-18 xl:text-2xl xl:bottom-16">Final Fantasy X, Mass Effect, The Last of Us and the Batman: Arkham series.</p>
+        <p className="border-orange-400 z-50 border-l-2 p-8 font-color-font text-white bg-brown-standard sm:absolute sm:bottom-19 sm:right-1 sm:max-w-sm sm:pr-0 md:text-xl md:max-w-md md:bottom-23 md:bg-transparent lg:max-w-sm lg:bottom-18 xl:text-2xl xl:bottom-16">Final Fantasy X, Mass Effect, the Batman: Arkham series and The Last of Us.</p>
 
       <Img className="w-100 max-w-md sm:-mt-10 md:-mt-12" fluid={props.data.arkhamCity.childImageSharp.fluid} />
       <Img className="w-100 max-w-md ml-auto -mt-10 md:-mt-12" fluid={props.data.lastOfUs.childImageSharp.fluid} />
@@ -56,7 +56,7 @@ const Page = props => (
         <p className="border-orange-400 z-50 border-l-2 p-8 font-color-font text-white bg-brown-standard sm:absolute sm:top-15 sm:right-1 sm:max-w-sm sm:pr-0 md:text-xl md:max-w-md md:top-10 md:bg-transparent lg:max-w-sm lg:top-5 xl:max-w-md xl:text-2xl xl:top-3">During a sponsored rough sleeping night at the City Ground, I was lucky enough to snap this 3am picture.</p>
 
       <Img className="w-100 max-w-md ml-auto sm:-mt-10 md:max-w-sm lg:-mt-56 lg:max-w-md" fluid={props.data.nffcTwo.childImageSharp.fluid} />
-      <Img className="w-100 max-w-md -mt-10 md:-mt-12 md:max-w-sm lg:-mt-32" fluid={props.data.nffcOne.childImageSharp.fluid} />
+      <Img className="w-100 max-w-md -mt-10 md:-mt-12 md:max-w-sm lg:-mt-32 lg:max-w-md" fluid={props.data.nffcOne.childImageSharp.fluid} />
 
     </div>
 
