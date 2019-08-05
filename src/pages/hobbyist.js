@@ -29,6 +29,20 @@ const Page = props => (
 
     </div>
 
+    <p className="py-3 my-4">My first console was the Nintendo (NES) - I played a lot of Trogg - and went through owning an original PlayStation, PS2, Xbox 360, PS3 and now the PS4.</p>
+
+    <div className="relative">
+      
+      <Img className="w-100 max-w-md" fluid={props.data.ffx.childImageSharp.fluid} />
+      <Img className="w-100 max-w-md ml-auto -mt-10 md:-mt-12" fluid={props.data.me2.childImageSharp.fluid} />
+
+        <p className="border-orange-400 z-50 border-l-2 p-8 font-color-font text-white bg-brown-standard sm:absolute sm:bottom-19 sm:right-1 sm:max-w-sm sm:pr-0 md:text-xl md:max-w-md md:bottom-23 md:bg-transparent lg:max-w-sm lg:bottom-18 xl:text-2xl xl:bottom-16">Final Fantasy X, Mass Effect, The Last of Us and the Batman: Arkham series.</p>
+
+      <Img className="w-100 max-w-md sm:-mt-10 md:-mt-12" fluid={props.data.arkhamCity.childImageSharp.fluid} />
+      <Img className="w-100 max-w-md ml-auto -mt-10 md:-mt-12" fluid={props.data.lastOfUs.childImageSharp.fluid} />
+
+    </div>
+
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Nottingham Forest</h2>
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Weight Training</h2>
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Tattoos</h2>
@@ -69,6 +83,18 @@ export const pageQuery = graphql`
       ...fluidImage
     }
     spyVsSpy: file(relativePath: { eq: "hobbyist/games/spy-v-spy.jpg" }) {
+      ...fluidImage
+    }
+    me2: file(relativePath: { eq: "hobbyist/games/me2.jpg" }) {
+      ...fluidImage
+    }
+    arkhamCity: file(relativePath: { eq: "hobbyist/games/arkham-city.jpg" }) {
+      ...fluidImage
+    }
+    ffx: file(relativePath: { eq: "hobbyist/games/ffx.jpg" }) {
+      ...fluidImage
+    }
+    lastOfUs: file(relativePath: { eq: "hobbyist/games/last-of-us.jpg" }) {
       ...fluidImage
     }
   }
