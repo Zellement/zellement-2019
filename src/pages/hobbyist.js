@@ -4,6 +4,8 @@ import Layout from '../components/Layout'
 import AnimatedLink from "../components/AnimatedLink"
 import Img from "gatsby-image"
 
+import { FaRegMeh } from 'react-icons/fa';
+
 //import IconGatsbyJS from "../components/Icons/Developer/GatsbyJS.js";
 
 const Page = props => (
@@ -44,6 +46,20 @@ const Page = props => (
     </div>
 
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Nottingham Forest</h2>
+
+    <p className="py-3 my-4">I'm a season card holder at Nottingham Forest, because I just love being disappointed in life <FaRegMeh className="inline"/>. Since moving to Nottingham in circa 2007, I have adopted the city as my home, and have since embraced Forest.</p>
+
+    <div className="relative">
+      
+      <Img className="w-100 mx-auto max-w-md sm:ml-0 md:max-w-sm" fluid={props.data.nffcThree.childImageSharp.fluid} />
+
+        <p className="border-orange-400 z-50 border-l-2 p-8 font-color-font text-white bg-brown-standard sm:absolute sm:top-15 sm:right-1 sm:max-w-sm sm:pr-0 md:text-xl md:max-w-md md:top-10 md:bg-transparent lg:max-w-sm lg:top-5 xl:max-w-md xl:text-2xl xl:top-3">During a sponsored rough sleeping night at the City Ground, I was lucky enough to snap this 3am picture.</p>
+
+      <Img className="w-100 max-w-md ml-auto sm:-mt-10 md:max-w-sm lg:-mt-56 lg:max-w-md" fluid={props.data.nffcTwo.childImageSharp.fluid} />
+      <Img className="w-100 max-w-md -mt-10 md:-mt-12 md:max-w-sm lg:-mt-32" fluid={props.data.nffcOne.childImageSharp.fluid} />
+
+    </div>
+
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Weight Training</h2>
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Tattoos</h2>
       
@@ -95,6 +111,15 @@ export const pageQuery = graphql`
       ...fluidImage
     }
     lastOfUs: file(relativePath: { eq: "hobbyist/games/last-of-us.jpg" }) {
+      ...fluidImage
+    }
+    nffcOne: file(relativePath: { eq: "hobbyist/nffc/nffc-01.jpg" }) {
+      ...fluidImage
+    }
+    nffcTwo: file(relativePath: { eq: "hobbyist/nffc/nffc-02.jpg" }) {
+      ...fluidImage
+    }
+    nffcThree: file(relativePath: { eq: "hobbyist/nffc/nffc-03.jpg" }) {
       ...fluidImage
     }
   }
