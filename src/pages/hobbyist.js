@@ -12,10 +12,23 @@ const Page = props => (
   	<div className="max-w-3xl">
 	  	<p className="text-md tracking-wider font-color-font"><AnimatedLink to="/">Dan Farrow</AnimatedLink> > Hobbyist</p>
 		<h1 className="text-5xl text-grey-light mb-8">Hobbyist.</h1>
-		<p className="py-3 text-lg"></p>
-		<p className="pb-3 text-md"></p>
+		<p className="py-3 text-lg">I tend to keep myself busy outside of my core interests, and below you'll find some of the other things that interest me.</p>
 
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Gaming</h2>
+
+    <p className="py-3">I grew up playing some old school games on both PC and the old Commodore 64, from <em>Spy vs. Spy</em>, <em>Emlyn Hughes Soccer</em> and <em>Prince of Persia</em>.</p>
+
+    <div className="relative">
+      
+      <Img className="w-100 max-w-md" fluid={props.data.emlynHughes.childImageSharp.fluid} />
+      <Img className="w-100 max-w-md ml-auto -mt-10 md:-mt-24" fluid={props.data.spyVsSpy.childImageSharp.fluid} />
+
+        <p className="border-orange-400 z-50 border-l-2 p-8 font-color-font text-white bg-brown-standard sm:absolute sm:bottom-7 sm:right-1 sm:max-w-sm sm:pr-0 md:text-xl md:bottom-10 md:bg-transparent  lg:bottom-6 xl:text-2xl xl:bottom-4">Graphics still are still breathtaking.</p>
+
+      <Img className="w-100 max-w-md sm:-mt-10 md:-mt-24" fluid={props.data.princeOfPersia.childImageSharp.fluid} />
+
+    </div>
+
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Nottingham Forest</h2>
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Weight Training</h2>
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Tattoos</h2>
@@ -47,6 +60,15 @@ export const fluidImage = graphql`
 export const pageQuery = graphql`
   query {
     tattoosOne: file(relativePath: { eq: "hobbyist/tattoos/tattoos-01.jpg" }) {
+      ...fluidImage
+    }
+    princeOfPersia: file(relativePath: { eq: "hobbyist/games/prince-of-persia.png" }) {
+      ...fluidImage
+    }
+    emlynHughes: file(relativePath: { eq: "hobbyist/games/emlyn-hughes.jpg" }) {
+      ...fluidImage
+    }
+    spyVsSpy: file(relativePath: { eq: "hobbyist/games/spy-v-spy.jpg" }) {
       ...fluidImage
     }
   }
