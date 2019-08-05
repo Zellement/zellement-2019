@@ -68,10 +68,23 @@ const Page = props => (
 
     </div>
 
-		<h2 className="text-3xl text-grey-light mb-4 mt-4">Weight Training</h2>
-		<h2 className="text-3xl text-grey-light mb-4 mt-4">Tattoos</h2>
+    <h2 className="text-3xl text-grey-light mb-4 mt-4">Tattoos</h2>
+
+    <p className="py-3 my-4">Just after my 18th birthday I got my first tattoo - a timeless tribal piece which as totally not gone out of fashion. I got the outline, but never filled it in; this allowed for an inverted style tattoo, which eventually grew.</p>
       
-      		<Img className="w-100 max-w-xl" fluid={props.data.tattoosOne.childImageSharp.fluid} />
+          <Img className="w-100 max-w-xl" fluid={props.data.tattoosOne.childImageSharp.fluid} />
+
+          <p className="py-3 my-4">The full sleeve was designed and completed just before my wedding in March 2018 - it's inspired by the <em>four horsemen</em>, partly from the Bible, partly from a Metallica song of the same name and partly from one of my favourite books, <em>Good Omens by Terry Pratchett &amp; Neil Gaiman</em>.</p>
+
+    <div className="relative">
+
+      <p className="border-orange-400 z-50 border-l-2 p-8 font-color-font text-white bg-brown-standard sm:absolute sm:bottom-2 sm:right-0 sm:max-w-sm sm:pr-0 md:text-xl md:max-w-md lg:max-w-sm xl:max-w-md xl:text-2xl">For all my tattoos I now visit one artist, <a className="hover:text-white text-brown-feint" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/kevrichardsontattoo/">Kev Richardson</a>, based in Nottingham.</p>
+      
+      <Img className="w-100 max-w-xl" fluid={props.data.tattoosOne.childImageSharp.fluid} />
+
+    </div>
+
+		<h2 className="text-3xl text-grey-light mb-4 mt-4">Weight Training</h2>
 
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Cycling</h2>
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Batman</h2>
