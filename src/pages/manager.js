@@ -168,7 +168,7 @@ const Page = props => (
 
 		<p className="pb-3 text-md">This formal and informal training has been the cornerstone to my progression as a manager and leader, and has revealed the following traits;</p>
 		<ul>
-			<li className="pb-3"><IoIosArrowForward className="inline" /> <a name="Visit Myers Briggs" className="hover:text-brown-light text-white" target="_blank" rel="noopener noreferrer" href="https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/home.htm?bhcp=1">MBTI</a>
+			<li className="pb-3"><IoIosArrowForward className="inline" /> <a name="Visit Myers Briggs" className="hover:text-brown-light text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/home.htm?bhcp=1">MBTI</a>
 				<span className="block ml-8">
 					One of the first training sessions I received was identifying my own personality type, and learning that of others. My personality test revealed my natural inclination toward the following;
 					<span className="block ml-8">I - Introvert</span>
@@ -181,7 +181,7 @@ const Page = props => (
 			<li className="pb-3 flex flex-col md:flex-row">
 
 				<span className="md:w-2/3">
-					<IoIosArrowForward className="inline" /> <a name="Visit Tilt 365" className="hover:text-brown-light text-white" target="_blank" rel="noopener noreferrer" href="https://www.tilt365.com/">Tilt 365</a>
+					<IoIosArrowForward className="inline" /> <a name="Visit Tilt 365" className="hover:text-brown-light text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.tilt365.com/">Tilt 365</a>
 						<span className="block ml-8 md:pr-4">
 							Following another self-completed survey, my Tilt 365 profile returned myself to be <em>Master Mind</em>. Although I accept that my natural persuasion is to think in this way, I believe I am very competent at being able to <em>tilt</em> in to other personality persuasions, dependent on the situation.
 						</span>
@@ -190,9 +190,9 @@ const Page = props => (
 	      		<Img alt="My Tilt 365 profile returned master mind" className="w-32 my-4 shadow self-center block max-w-lg h-40" fluid={props.data.mastermind.childImageSharp.fluid} />
 
 			</li>
-			<li className="pb-3"><IoIosArrowForward className="inline" /> PIPs, PDPs &amp; Disciplinaries
+			<li className="pb-3"><IoIosArrowForward className="inline" /> <a name="Visit Situational.com" className="hover:text-brown-light text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.situational.com/the-cls-difference/situational-leadership-what-we-do/">Situational Leadership</a>
 				<span className="block ml-8">
-					I've had the unforunate experience of dealing with performance improvement plans in addition to formal discplinary hearings.
+					I've been trained on Situational Leadership, and how changing style depending on the situation can be very effective.
 				</span>
 			</li>
 		</ul>
