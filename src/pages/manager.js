@@ -85,7 +85,7 @@ const Page = props => (
 
 		<p className="pb-3 text-md">This formal and informal training has been the cornerstone to my progression as a manager and leader, and has revealed the following traits;</p>
 		<ul>
-			<li className="pb-3"><IoIosArrowForward className="inline" /> <a className="hover:text-brown-light text-white" target="_blank" rel="noopener noreferrer" href="https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/home.htm?bhcp=1">MBTI</a>
+			<li className="pb-3"><IoIosArrowForward className="inline" /> <a name="Visit Myers Briggs" className="hover:text-brown-light text-white" target="_blank" rel="noopener noreferrer" href="https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/home.htm?bhcp=1">MBTI</a>
 				<span className="block ml-8">
 					One of the first training sessions I received was identifying my own personality type, and learning that of others. My personality test revealed my natural inclination toward the following;
 					<span className="block ml-8">I - Introvert</span>

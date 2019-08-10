@@ -9,16 +9,16 @@ const Social = () => (
 
     <IconContext.Provider value={{ size: "1.1em" }}>
 
-      <a className="hover:text-white mr-2" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/zellement/"><IoLogoInstagram className="inline" />
+      <a name="Visit my Instagram" className="hover:text-white mr-2" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/zellement/"><IoLogoInstagram className="inline" />
       </a>
 
-      <a className="hover:text-white mr-2" target="_blank" rel="noopener noreferrer" href="https://github.com/Zellement"><IoLogoGithub className="inline" />
+      <a name="Visit my GitHub" className="hover:text-white mr-2" target="_blank" rel="noopener noreferrer" href="https://github.com/Zellement"><IoLogoGithub className="inline" />
       </a>
 
-      <a className="hover:text-white mr-2" target="_blank" rel="noopener noreferrer" href="https://twitter.com/Zellement"><IoLogoTwitter className="inline" />
+      <a name="Follow me on Twitter" className="hover:text-white mr-2" target="_blank" rel="noopener noreferrer" href="https://twitter.com/Zellement"><IoLogoTwitter className="inline" />
       </a>
 
-      <a className="hover:text-white mr-2 md:m-0" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/zellement/"><IoLogoLinkedin className="inline" />
+      <a name="See my LinkedIn" className="hover:text-white mr-2 md:m-0" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/zellement/"><IoLogoLinkedin className="inline" />
       </a>
 
     </IconContext.Provider>
