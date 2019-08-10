@@ -25,7 +25,7 @@ const Page = props => (
       <Img className="w-100 max-w-md" fluid={props.data.emlynHughes.childImageSharp.fluid} />
       <Img className="w-100 max-w-md ml-auto -mt-10 md:-mt-24" fluid={props.data.spyVsSpy.childImageSharp.fluid} />
 
-        <p className="border-orange-400 z-50 border-l-2 p-8 font-color-font text-white bg-brown-standard sm:absolute sm:bottom-7 sm:right-1 sm:max-w-sm sm:pr-0 md:text-xl md:bottom-10 md:bg-transparent  lg:bottom-6 xl:text-2xl xl:bottom-4">Graphics still are still breathtaking.</p>
+        <p className="border-orange-400 z-50 border-l-2 p-8 font-color-font text-white bg-brown-standard sm:absolute sm:bottom-7 sm:right-1 sm:max-w-sm sm:pr-0 md:text-xl md:bottom-10 md:bg-transparent  lg:bottom-6 xl:text-2xl xl:bottom-4">Graphics are still breathtaking.</p>
 
       <Img className="w-100 max-w-md sm:-mt-10 md:-mt-24" fluid={props.data.princeOfPersia.childImageSharp.fluid} />
 

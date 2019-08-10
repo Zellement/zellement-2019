@@ -18,7 +18,7 @@ const ImageShowHide = class extends React.Component {
 
 			<div>
 
-				<div className="absolute bottom-0 font-color-font left-0 z-50 bg-white text-black p-2 bg-orange-700 text-white cursor-pointer" onClick={this.toggleImage}>
+				<div className="absolute bottom-0 font-color-font left-0 z-30 bg-white text-black p-2 bg-orange-700 text-white cursor-pointer" onClick={this.toggleImage}>
 					<span className="display-text">Toggle Designs</span>
 				</div>
 
