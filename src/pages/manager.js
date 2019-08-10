@@ -38,7 +38,7 @@ const Page = props => (
 
 			<p className="pb-3 text-md">I'm very honoured to have worked alongside so many great people, with a rich variety of design, development and marketing backgrounds; web/UI/UX designers, front-end/back-end/full-stack developers, SEO strategists and technical SEO specialists, PPC consultants, creative copywriters and inspiring leaders.</p>
 
-		    <div className="relative mb-10">
+		    <div className="relative my-10">
 
 	      		<Img alt="Myself and Adtrak colleagues at my own wedding" className="block max-w-lg" fluid={props.data.wedding.childImageSharp.fluid} />
 
@@ -58,7 +58,55 @@ const Page = props => (
 
 		    </div>
 
+	   		<div className="my-10 flex flex-col lg:flex-row lg:pt-10">
 
+				<p className="pb-8 text-md lg:w-1/4">In 2016, Adtrak's growth opened up an opportunity for an addiitonal support layer below the directors, and I was promoted into the role of a <em>Senior Manager</em>. In this role I was responsible for helping make key decisions on the direction of the company, and overseeing 3 different departments - Web Design, Web Development and Web Leasing. I managed to fulfil this role in addition to being Head of Web Design, until a massive company re-structure redefined my role into the <em>Assistant Customer Operations Director</em>.</p>
+
+				<div className="flex flex-col lg:w-3/4">
+
+					<div className="flex flex-row">
+						<span className="w-1/4 pr-4 font-color-font text-orange-400 border-r-2 border-orange-400 border-solid lg:text-right">2008</span>
+						<span className="w-3/4 pl-4 pb-10">
+							<span className="text-white">First managerial role</span>
+							<span className="block">Became Head of Web Design overseeing 2 additonal people.</span>
+						</span>
+					</div>
+
+					<div className="flex flex-row">
+						<span className="w-1/4 pr-4 font-color-font text-orange-400 border-r-2 border-orange-400 border-solid lg:text-right">2012</span>
+						<span className="w-3/4 pl-4 pb-10">
+							<span className="text-white">Introduction of managerial levels</span>
+							<span className="block">I helped introduce new levels of management within Web Design as the department outgrew its existing structure</span>
+						</span>
+					</div>
+
+					<div className="flex flex-row">
+						<span className="w-1/4 pr-4 font-color-font text-orange-400 border-r-2 border-orange-400 border-solid lg:text-right">2014</span>
+						<span className="w-3/4 pl-4 pb-10">
+							<span className="text-white">Web Design reaches 25 employees</span>
+							<span className="block">Following substantial growth, the department hits 25 employees</span>
+						</span>
+					</div>
+
+					<div className="flex flex-row">
+						<span className="w-1/4 pr-4 font-color-font text-orange-400 border-r-2 border-orange-400 border-solid lg:text-right">2015</span>
+						<span className="w-3/4 pl-4 pb-10">
+							<span className="text-white">Promotion to Senior Manager</span>
+							<span className="block">I effectively became a Senior Manager whilst still running the Web Design department</span>
+						</span>
+					</div>
+
+					<div className="flex flex-row">
+						<span className="w-1/4 pr-4 font-color-font text-orange-400 border-r-2 border-orange-400 border-solid lg:text-right">2019</span>
+						<span className="w-3/4 pl-4 pb-2">
+							<span className="text-white">Became Assistant Customer Operations Director</span>
+							<span className="block">Following a company re-structure, I took on this role, jointly responsible for almost 90 people's output for clients spread across 8 client teams</span>
+						</span>
+					</div>
+
+				</div>
+
+			</div>
 
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Experience</h2>
 		<p className="pb-3 text-md">I have years of experience with the standard tasks associated to people management, including but not limited to;</p>
