@@ -15,7 +15,7 @@ const Page = props => (
 	  	<p className="text-md tracking-wider font-color-font"><AnimatedLink to="/">Dan Farrow</AnimatedLink> > Manager</p>
 		<h1 className="text-5xl text-grey-light mb-8">Manager.</h1>
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">History</h2>
-		<p className="py-3 text-lg">My first official managerial role came in the shape of the <em>Head of Web Design</em> for <a className="hover:text-brown-light text-white" target="_blank" rel="noopener noreferrer" href="https://www.adtrak.co.uk">Adtrak</a>. Before this, I was part of the Web Design team, and was quickly recognised for my effective working practices, attention to detail and leadership qualities. Just 8 months in to my role with Adtrak, I was promoted to the head of department, and managed myself and 2 other designers.</p>
+		<p className="py-3 text-lg">My first official managerial role came in the shape of the <em>Head of Web Design</em> for <a className="hover:text-brown-light text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.adtrak.co.uk">Adtrak</a>. Before this, I was part of the Web Design team, and was quickly recognised for my effective working practices, attention to detail and leadership qualities. Just 8 months in to my role with Adtrak, I was promoted to the head of department, and managed myself and 2 other designers.</p>
 
 	    <div className="relative mb-10">
 
@@ -108,20 +108,55 @@ const Page = props => (
 
 			</div>
 
+		<h2 className="text-3xl text-grey-light mb-4 mt-4">Project Management</h2>
+
+		<p className="pb-3 text-md">Over the years I have been able to implement new projects, workstreams, processes and services into Adtrak in order to help it grow and succeed.</p>
+
+		<p className="pb-3 text-md">As with all projects, organisation can be critical to the success of the project implementation, so I always strive to be as organised as possible. An attention to detail as well as creative solution finding are also strengths I can pull from in order to effectively deliver something new to the company.</p>
+
+		<p className="pb-3 text-md">Some of my more recent projects delivered include;</p>
+
+		<ul>
+			<li className="pb-3"><IoIosArrowForward className="inline" /> <span class="text-white">Customer Journey Plan</span>
+				<span className="block ml-8">
+					As part of Adtrak's huge re-structure, a workstream was created to devise a full <em>Customer Journey Plan</em>. This involved researching Adtrak's current client by conducting phone call interviews and digital surveys, discovering the SME market place across the UK and doing competitive analysis. A successful plan was delivered to the Adtrak Directors late 2018 and has been heavily used in the re-structure of the company.
+				</span>
+			</li>
+			<li className="pb-3"><IoIosArrowForward className="inline" /> <span class="text-white">New products &amp; processes for Adtrak</span>
+				<span className="block ml-8">
+					In recent years on seperate occasions I researched solutions for Adtrak to offer SSL/HTTPS hosting to its clients - increasing the profitability of our hosting product, devising guides and resources to streamline the work and ensure our client's websites follow encryption guidelines - and found and released a solution for Adtrak to deliver sitemaps. Both of these required training, guides &amp; discussions to ensure an effective release to a company of over 120 people. 
+				</span>
+			</li>
+			<li className="pb-3"><IoIosArrowForward className="inline" /> <span class="text-white">"Change for Growth"</span>
+				<span className="block ml-8">
+					Adtrak's huge re-structure, dubbed <em>Change for Growth</em>, was a huge undertaking, and as part of the leadership team I had an integral role in helping direct and deliver the monumental change. This included a lot of coaching, supporting and helping people through the whole transiton.
+				</span>
+			</li>
+		</ul>
+
+	    <div className="relative my-10">
+
+      		<Img alt="Myself and Adtrak colleagues at my own wedding" className="block max-w-lg mx-auto lg:ml-0" fluid={props.data.leadership.childImageSharp.fluid} />
+
+	        <p className="z-50 mx-auto max-w-lg border-orange-400 block border-l-2 p-4 font-color-font text-brown-feint lg:absolute lg:top-5 lg:right-0 lg:max-w-xs lg:text-white xl:text-2xl xl:top-3 xl:text-white">A quick selfie with some of the Adtrak leadership, circa 2018
+	        </p>
+
+	    </div>
+
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Experience</h2>
 		<p className="pb-3 text-md">I have years of experience with the standard tasks associated to people management, including but not limited to;</p>
 		<ul>
-			<li className="pb-3"><IoIosArrowForward className="inline" /> Monthly 1-1s
+			<li className="pb-3"><IoIosArrowForward className="inline" /> <span class="text-white">Monthly 1-1s</span>
 				<span className="block ml-8">
 					In monthly 1-1s with my direct reports, it has been important to have open conversation saround how an indivudual is finding their role, and how they can look to improve. I've held 1-1s with a vast range of levels of employee, from Juniors to Seniors and Assistant Managers, all of which required a degree of customisation to suit the situation and colleague.
 				</span>
 			</li>
-			<li className="pb-3"><IoIosArrowForward className="inline" /> Objective setting &amp; KPIs
+			<li className="pb-3"><IoIosArrowForward className="inline" /> <span class="text-white">Objective setting &amp; KPIs</span>
 				<span className="block ml-8">
 					On both an individual and company basis, I have years of experience setting SMART objectives and KPIs that are achieveable and encourage development and progression.
 				</span>
 			</li>
-			<li className="pb-3"><IoIosArrowForward className="inline" /> PIPs, PDPs &amp; Disciplinaries
+			<li className="pb-3"><IoIosArrowForward className="inline" /> <span class="text-white">PIPs, PDPs &amp; Disciplinaries</span>
 				<span className="block ml-8">
 					I've had the unforunate experience of dealing with performance improvement plans in addition to formal discplinary hearings.
 				</span>
@@ -140,13 +175,20 @@ const Page = props => (
 					<span className="block ml-8">S - Sensing</span>
 					<span className="block ml-8">T - Thinking</span>
 					<span className="block ml-8">J - Judgement</span>
-					<span className="block ml-8"><em>Quietly systematic.  Factual.  Organized.  Logical.  Detailed.  Conscientious.  Analytical.  Responsible. Pragmatic.  Critical.  Conservative.  Decisive. Stable.  Concrete.  Efficient.</em></span>
+					<span className="block ml-8"><em>"Quietly systematic.  Factual.  Organized.  Logical.  Detailed.  Conscientious.  Analytical.  Responsible. Pragmatic.  Critical.  Conservative.  Decisive. Stable.  Concrete.  Efficient."</em></span>
 				</span>
 			</li>
-			<li className="pb-3"><IoIosArrowForward className="inline" /> Objective setting &amp; KPIs
-				<span className="block ml-8">
-					On both an individual and company basis, I have years of experience setting SMART objectives and KPIs that are achieveable and encourage development and progression.
+			<li className="pb-3 flex flex-col md:flex-row">
+
+				<span className="md:w-2/3">
+					<IoIosArrowForward className="inline" /> <a name="Visit Tilt 365" className="hover:text-brown-light text-white" target="_blank" rel="noopener noreferrer" href="https://www.tilt365.com/">Tilt 365</a>
+						<span className="block ml-8 md:pr-4">
+							Following another self-completed survey, my Tilt 365 profile returned myself to be <em>Master Mind</em>. Although I accept that my natural persuasion is to think in this way, I believe I am very competent at being able to <em>tilt</em> in to other personality persuasions, dependent on the situation.
+						</span>
 				</span>
+
+	      		<Img alt="My Tilt 365 profile returned master mind" className="w-32 my-4 shadow self-center block max-w-lg h-40" fluid={props.data.mastermind.childImageSharp.fluid} />
+
 			</li>
 			<li className="pb-3"><IoIosArrowForward className="inline" /> PIPs, PDPs &amp; Disciplinaries
 				<span className="block ml-8">
@@ -181,6 +223,12 @@ export const pageQuery = graphql`
       ...fluidImageManager
     }
     wedding: file(relativePath: { eq: "manager/wedding.jpg" }) {
+      ...fluidImageManager
+    }
+    leadership: file(relativePath: { eq: "manager/leadership.jpg" }) {
+      ...fluidImageManager
+    }
+    mastermind: file(relativePath: { eq: "manager/mastermind.jpg" }) {
       ...fluidImageManager
     }
   }
