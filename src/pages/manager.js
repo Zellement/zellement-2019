@@ -19,11 +19,11 @@ const Page = props => (
 
 	    <div className="relative mb-10">
 
-	      	<Img className="w-100 max-w-sm mr-auto xl:max-w-md" fluid={props.data.onstageOne.childImageSharp.fluid} />
+	      	<Img alt="Presentation for an Adtrak AGM" className="w-100 max-w-sm mr-auto xl:max-w-md" fluid={props.data.onstageOne.childImageSharp.fluid} />
 
 	        <p className="z-50 border-orange-400 border-l-2 p-8 font-color-font text-white bg-brown-standard sm:absolute sm:top-4 sm:right-0 sm:max-w-xs sm:pr-0 md:text-xl md:top-0 md:bg-transparent lg:pt-6 lg:top-0 lg:max-w-sm xl:top-0 xl:text-2xl">Presentation and Q&amp;A for an Adtrak AGM</p>
 
-	      	<Img className="w-100 max-w-sm ml-auto sm:-mt-10 sm:-mt-24 mb-4 lg:-mt-40 xl:-mt-56" fluid={props.data.onstageTwo.childImageSharp.fluid} />
+	      	<Img alt="Q and A for an Adtrak AGM" className="w-100 max-w-sm ml-auto sm:-mt-10 sm:-mt-24 mb-4 lg:-mt-40 xl:-mt-56" fluid={props.data.onstageTwo.childImageSharp.fluid} />
 
 	    </div>
 
@@ -31,7 +31,7 @@ const Page = props => (
 
 			<p className="pb-3 text-md sm:pr-4 md:p-0 lg:pr-10">Since then, as Head of Web Design, I helped the company grow from a small garage setup of about 10 employees into a fully fledged, 120+ employee company in one of the largest city centre offices in Nottingham. The Web Design department under my remit grew from 3 to 25, and I was the first in the company to introduce a new layer of management for the department in the shape of <em>Team Leaders</em> and an assistant.</p>
 
-	      	<img src={XmasGif} className="w-100 h-auto self-center sm:max-w-xs md:max-w-full md:pt-6 lg:max-w-sm lg:p-0" />
+	      	<img alt="Christmas outing with some fellow Adtrak colleagues" src={XmasGif} className="w-100 h-auto self-center sm:max-w-xs md:max-w-full md:pt-6 lg:max-w-sm lg:p-0" />
 
 	      </div>
 
@@ -40,7 +40,7 @@ const Page = props => (
 
 		    <div className="relative mb-10">
 
-	      		<Img className="block max-w-lg" fluid={props.data.wedding.childImageSharp.fluid} />
+	      		<Img alt="Myself and Adtrak colleagues at my own wedding" className="block max-w-lg" fluid={props.data.wedding.childImageSharp.fluid} />
 
 		        <p className="z-50 border-orange-400 inline border-l-2 p-4 font-color-font text-brown-dark absolute top-0 left-0 md:right-auto xl:text-2xl xl:left-23 xl:top-3 xl:text-white">
 		        	<GoHeart className="inline text-red-900" />
