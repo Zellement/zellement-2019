@@ -70,7 +70,7 @@ const Page = props => (
 
     <h2 className="text-3xl text-grey-light mb-4 mt-4">Tattoos</h2>
 
-    <p className="py-3 my-4">Just after my 18th birthday I got my first tattoo - a timeless tribal piece which as totally not gone out of fashion. I got the outline, but never filled it in; this allowed for an inverted style tattoo, which eventually grew.</p>
+    <p className="py-3 my-4">Just after my 18th birthday I got my first tattoo - a timeless tribal piece which has totally not gone out of fashion. I got the outline, but never filled it in; this allowed for an inverted style tattoo, which eventually grew.</p>
       
           <Img className="w-100 max-w-xl" fluid={props.data.tattoosOne.childImageSharp.fluid} />
 
