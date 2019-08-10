@@ -64,6 +64,8 @@ const Page = props => (
 
 				<div className="flex flex-col lg:w-3/4">
 
+					<h2 className="self-end mb-8">Adtrak managerial career</h2>
+
 					<div className="flex flex-row">
 						<span className="w-1/4 pr-4 font-color-font text-orange-400 border-r-2 border-orange-400 border-solid lg:text-right">2008</span>
 						<span className="w-3/4 pl-4 pb-10">
