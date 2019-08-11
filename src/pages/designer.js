@@ -23,7 +23,7 @@ const DesignerPage = props => {
   			<h1 className="text-5xl text-grey-light mb-8">Designer.</h1>
   			<p className="py-3 text-lg max-w-3xl">I've been designing websites since the late nineties, when <em>web designer</em> and <em>webmaster</em> were the catch all roles. I have lived through iterations of fixed width, responsive, mobile-first, gradients, no gradients, drop shadows, no drop shadows, gradients again...</p>
   			<p className="pb-3 text-md max-w-3xl">It's safe to say I've seen a lot of change in the industry as regards design. Although I no longer class myself as a designer, I still dabble occasionally, particularly for freelance.</p>
-  			<h2 className="text-3xl text-grey-light mb-4 mt-4">Web Design</h2>
+  			<h2 className="text-3xl text-grey-light mb-4 mt-4">Web Design Work</h2>
 
         {/* 
           --------------------------------------------------------
@@ -58,7 +58,7 @@ const DesignerPage = props => {
           devTitle="Sheringham Shantymen"
           devURL="https://www.shantymen.com/"
           devDisplayURL="www.shantymen.com"
-          devDescription="This was a redesign of my own work, originally built circa 2015. The functionality and layout of the site was tired, so a fresh redesign and build was needed to keep the group's internet presence professional and modern.">
+          devDescription="This was a redesign of my own work, originally built circa 2015. The functionality and layout of the site was tired, so a fresh redesign and build was needed to keep the group's internet presence professional and modern. A tip of the hat to George Wood for the font assist.">
           <IconDeveloper />
           <IconAdobeXD />
         </DesignerWork>

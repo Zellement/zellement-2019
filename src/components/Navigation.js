@@ -22,9 +22,9 @@ const Navigation = class extends React.Component {
           <li><AnimatedLink className="text-brown-feint block md:text-right" activeClassName="active" to="/">Home</AnimatedLink></li>
             <li><AnimatedLink className="text-brown-feint block md:text-right" activeClassName="active" to="/developer">Developer</AnimatedLink></li>
             <li><AnimatedLink className="text-brown-feint block md:text-right" activeClassName="active" to="/designer">Designer</AnimatedLink></li>
-            <li><AnimatedLink className="text-brown-feint block md:text-right" activeClassName="active" to="/artist">Artist</AnimatedLink></li>
             <li><AnimatedLink className="text-brown-feint block md:text-right" activeClassName="active" to="/manager">Manager</AnimatedLink></li>
             <li><AnimatedLink className="text-brown-feint block md:text-right" activeClassName="active" to="/musician">Musician</AnimatedLink></li>
+            <li><AnimatedLink className="text-brown-feint block md:text-right" activeClassName="active" to="/artist">Artist</AnimatedLink></li>
             <li><AnimatedLink className="text-brown-feint block md:text-right" activeClassName="active" to="/hobbyist">Hobbyist</AnimatedLink></li>
             <li><AnimatedLink className="text-brown-feint block md:text-right" activeClassName="active" to="/recommended">Recommended</AnimatedLink></li>
             <li><AnimatedLink className="text-brown-feint block md:text-right" activeClassName="active" to="/contact">Contact</AnimatedLink></li>

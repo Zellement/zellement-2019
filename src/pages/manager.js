@@ -29,7 +29,7 @@ const Page = props => (
 
 	    <div className="my-10 flex flex-col sm:flex-row md:flex-col lg:flex-row lg:pt-10">
 
-			<p className="pb-3 text-md sm:pr-4 md:p-0 lg:pr-10">Since then, as Head of Web Design, I helped the company grow from a small garage setup of about 10 employees into a fully fledged, 120+ employee company in one of the largest city centre offices in Nottingham. The Web Design department under my remit grew from 3 to 25, and I was the first in the company to introduce a new layer of management for the department in the shape of <em>Team Leaders</em> and an assistant.</p>
+			<p className="pb-3 text-md sm:pr-4 md:p-0 lg:pr-10">Since then, as Head of Web Design, I have helped the company grow from a small garage setup of about 10 employees into a fully fledged, 120+ employee company in one of the largest city centre offices in Nottingham. The Web Design department under my remit grew from 3 to 25, and I was the first in the company to introduce a new layer of management for the department in the shape of <em>Team Leaders</em> and an assistant.</p>
 
 	      	<img alt="Christmas outing with some fellow Adtrak colleagues" src={XmasGif} className="w-100 h-auto self-center sm:max-w-xs md:max-w-full md:pt-6 lg:max-w-sm lg:p-0" />
 
@@ -112,7 +112,7 @@ const Page = props => (
 
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Project Management</h2>
 
-		<p className="pb-3 text-md">Over the years I have been able to implement new projects, workstreams, processes and services into Adtrak in order to help it grow and succeed.</p>
+		<p className="pb-3 text-lg">Over the years I have been able to implement new projects, workstreams, processes and services into Adtrak in order to help it grow and succeed.</p>
 
 		<p className="pb-3 text-md">As with all projects, organisation can be critical to the success of the project implementation, so I always strive to be as organised as possible. An attention to detail as well as creative solution finding are also strengths I can pull from in order to effectively deliver something new to the company.</p>
 
@@ -121,7 +121,7 @@ const Page = props => (
 		<ul>
 			<li className="pb-3"><IoIosArrowForward className="inline" /> <span className="text-white">Customer Journey Plan</span>
 				<span className="block ml-8">
-					As part of Adtrak's huge re-structure, a workstream was created to devise a full <em>Customer Journey Plan</em>. This involved researching Adtrak's current client by conducting phone call interviews and digital surveys, discovering the SME market place across the UK and doing competitive analysis. A successful plan was delivered to the Adtrak Directors late 2018 and has been heavily used in the re-structure of the company.
+					As part of Adtrak's huge re-structure, a workstream was created to devise a full <em>Customer Journey Plan</em>. This involved researching Adtrak's current client base by conducting phone call interviews and digital surveys, discovering the SME market place across the UK and doing competitive analysis. A successful plan was delivered to the Adtrak Directors late 2018 and has been heavily used in the re-structure of the company.
 				</span>
 			</li>
 			<li className="pb-3"><IoIosArrowForward className="inline" /> <span className="text-white">New products &amp; processes for Adtrak</span>
@@ -146,11 +146,11 @@ const Page = props => (
 	    </div>
 
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Experience</h2>
-		<p className="pb-3 text-md">I have years of experience with the standard tasks associated to people management, including but not limited to;</p>
+		<p className="pb-3 text-lg">I have years of experience with the standard tasks associated to people management, including but not limited to;</p>
 		<ul>
 			<li className="pb-3"><IoIosArrowForward className="inline" /> <span className="text-white">Monthly 1-1s</span>
 				<span className="block ml-8">
-					In monthly 1-1s with my direct reports, it has been important to have open conversation saround how an indivudual is finding their role, and how they can look to improve. I've held 1-1s with a vast range of levels of employee, from Juniors to Seniors and Assistant Managers, all of which required a degree of customisation to suit the situation and colleague.
+					In monthly 1-1s with my direct reports, it has been important to have open conversations around how an individual is finding their role, and how they can look to improve. I've held 1-1s with a vast range of levels of employee, from juniors and seniors to department managers and Digital Marketing Managers, all of which required a degree of customisation to suit the situation and colleague.
 				</span>
 			</li>
 			<li className="pb-3"><IoIosArrowForward className="inline" /> <span className="text-white">Objective setting &amp; KPIs</span>
@@ -160,13 +160,13 @@ const Page = props => (
 			</li>
 			<li className="pb-3"><IoIosArrowForward className="inline" /> <span className="text-white">PIPs, PDPs &amp; Disciplinaries</span>
 				<span className="block ml-8">
-					I've had the unforunate experience of dealing with performance improvement plans in addition to formal discplinary hearings.
+					I've had the unforunate experience of dealing with performance improvement plans in addition to formal disciplinary hearings.
 				</span>
 			</li>
 		</ul>
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Training</h2>
 
-		<p className="pb-3 text-md">Adtrak has supplied me with numerous tools, training and guides to really advance my managerial skills, which have come in use over the years.</p>
+		<p className="pb-3 text-lg">Adtrak has supplied me with numerous tools, training and guides to really advance my managerial skills, which have come in use over the years.</p>
 
 		<p className="pb-3 text-md">This formal and informal training has been the cornerstone to my progression as a manager and leader, and has revealed the following traits;</p>
 		<ul>

@@ -18,7 +18,7 @@ const Page = props => (
 
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Gaming</h2>
 
-    <p className="py-3">I grew up playing some old school games on both PC and the old Commodore 64, from <em>Spy vs. Spy</em>, <em>Emlyn Hughes Soccer</em> and <em>Prince of Persia</em>.</p>
+    <p className="py-3">I grew up playing some old school games on both PC and the old Commodore 64, from <em>Emlyn Hughes Soccer</em>, <em>Spy vs. Spy</em> and <em>Prince of Persia</em>.</p>
 
     <div className="relative">
       
@@ -70,11 +70,11 @@ const Page = props => (
 
     <h2 className="text-3xl text-grey-light mb-4 mt-8">Tattoos</h2>
 
-    <p className="py-3 my-4">Just after my 18th birthday I got my first tattoo - a timeless tribal piece which has totally not gone out of fashion. I got the outline, but never filled it in; this allowed for an inverted style tattoo, which eventually grew.</p>
+    <p className="py-3 my-4">Just after my 18th birthday I got my first tattoo - a timeless tribal piece which has totally not gone out of fashion. I got the outline, but never filled it in; this allowed for an inverted style tattoo, which eventually grew. In late 2018 I had the tattoo refreshed.</p>
       
           <Img className="w-100 max-w-xl" fluid={props.data.tattoosOne.childImageSharp.fluid} />
 
-          <p className="py-3 my-4">The full sleeve was designed and completed just before my wedding in March 2018 - it's inspired by the <em>four horsemen</em>, partly from the Bible, partly from a Metallica song of the same name and partly from one of my favourite books, <em>Good Omens by Terry Pratchett &amp; Neil Gaiman</em>.</p>
+          <p className="py-3 my-4">My full sleeve was designed and completed just before my wedding in March 2018 - it's the <em>four horsemen</em>, partly inspired from the Bible, partly from a Metallica song of the same name and partly from one of my favourite books, <em>Good Omens by Terry Pratchett &amp; Neil Gaiman</em>.</p>
 
     <div className="relative">
 
@@ -102,9 +102,9 @@ const Page = props => (
 
 		<h2 className="text-3xl text-grey-light mb-4 mt-8">Batman</h2>
 
-    <p className="py-3 my-4">My first memory which has instilled a love for Batman in me is getting up on Saturday mornings and parking myself in front of Channel 4, waiting for one of the the best animated series of all time, <a className="hover:text-brown-feint text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.imdb.com/title/tt0103359/">Batman: The Animated Series</a>.</p>
+    <p className="py-3 my-4">My first memory which has instilled a love for Batman in me is getting up on Saturday mornings and parking myself in front of Channel 4, waiting for one of the the best animated series of all time, <a className="hover:text-brown-feint text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.imdb.com/title/tt0103359/">Batman: The Animated Series</a>, to come on.</p>
 
-    <p className="py-3 my-4">I absolutely love the film <em>Batman vs. Superman: Dawn of Justice</em>, much to the dismay of most people I talk to. This fight scene alone is something else.</p>
+    <p className="py-3 my-4">I absolutely love the film <em>Batman vs. Superman: Dawn of Justice</em>, much to the dismay and disbelief of most people I talk to. This fight scene alone is something else.</p>
 
 		<iframe title="Batman live action fight scene" width="100%" height="400px" className="mx-auto w-100 max-w-xl md:ml-0" src="https://www.youtube.com/embed/AnTSE-Qvt_E?start=92" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
