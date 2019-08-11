@@ -26,7 +26,7 @@ const HomePage = () => {
 						recPeopleDisplayURL="theseeingplace.co.uk"
 						recPeopleClasses = {"order-" +  + Math.floor(Math.random() * 10)}
 						recPeopleJob="Wardrobe Assistant &amp; Theatre Maker"
-						recPeopleDescription="My better half, and probably the hardest worker I've ever know, Saz has done work for so many different companies and people around the country, always to a high standard. Utmost respect for how much she puts into anything she does.">
+						recPeopleDescription="My better half, and probably the hardest worker I've ever known, Saz has done work for so many different companies and people around the country, always to a high standard. Utmost respect for how much she puts into anything she does.">
 					</RecommendedPeople>
 
 					<RecommendedPeople

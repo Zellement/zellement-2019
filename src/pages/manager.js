@@ -119,17 +119,17 @@ const Page = props => (
 		<p className="pb-3 text-md">Some of my more recent projects delivered include;</p>
 
 		<ul>
-			<li className="pb-3"><IoIosArrowForward className="inline" /> <span class="text-white">Customer Journey Plan</span>
+			<li className="pb-3"><IoIosArrowForward className="inline" /> <span className="text-white">Customer Journey Plan</span>
 				<span className="block ml-8">
 					As part of Adtrak's huge re-structure, a workstream was created to devise a full <em>Customer Journey Plan</em>. This involved researching Adtrak's current client by conducting phone call interviews and digital surveys, discovering the SME market place across the UK and doing competitive analysis. A successful plan was delivered to the Adtrak Directors late 2018 and has been heavily used in the re-structure of the company.
 				</span>
 			</li>
-			<li className="pb-3"><IoIosArrowForward className="inline" /> <span class="text-white">New products &amp; processes for Adtrak</span>
+			<li className="pb-3"><IoIosArrowForward className="inline" /> <span className="text-white">New products &amp; processes for Adtrak</span>
 				<span className="block ml-8">
 					In recent years on seperate occasions I researched solutions for Adtrak to offer SSL/HTTPS hosting to its clients - increasing the profitability of our hosting product, devising guides and resources to streamline the work and ensure our client's websites follow encryption guidelines - and found and released a solution for Adtrak to deliver sitemaps. Both of these required training, guides &amp; discussions to ensure an effective release to a company of over 120 people. 
 				</span>
 			</li>
-			<li className="pb-3"><IoIosArrowForward className="inline" /> <span class="text-white">"Change for Growth"</span>
+			<li className="pb-3"><IoIosArrowForward className="inline" /> <span className="text-white">"Change for Growth"</span>
 				<span className="block ml-8">
 					Adtrak's huge re-structure, dubbed <em>Change for Growth</em>, was a huge undertaking, and as part of the leadership team I had an integral role in helping direct and deliver the monumental change. This included a lot of coaching, supporting and helping people through the whole transiton.
 				</span>
@@ -148,17 +148,17 @@ const Page = props => (
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Experience</h2>
 		<p className="pb-3 text-md">I have years of experience with the standard tasks associated to people management, including but not limited to;</p>
 		<ul>
-			<li className="pb-3"><IoIosArrowForward className="inline" /> <span class="text-white">Monthly 1-1s</span>
+			<li className="pb-3"><IoIosArrowForward className="inline" /> <span className="text-white">Monthly 1-1s</span>
 				<span className="block ml-8">
 					In monthly 1-1s with my direct reports, it has been important to have open conversation saround how an indivudual is finding their role, and how they can look to improve. I've held 1-1s with a vast range of levels of employee, from Juniors to Seniors and Assistant Managers, all of which required a degree of customisation to suit the situation and colleague.
 				</span>
 			</li>
-			<li className="pb-3"><IoIosArrowForward className="inline" /> <span class="text-white">Objective setting &amp; KPIs</span>
+			<li className="pb-3"><IoIosArrowForward className="inline" /> <span className="text-white">Objective setting &amp; KPIs</span>
 				<span className="block ml-8">
 					On both an individual and company basis, I have years of experience setting SMART objectives and KPIs that are achieveable and encourage development and progression.
 				</span>
 			</li>
-			<li className="pb-3"><IoIosArrowForward className="inline" /> <span class="text-white">PIPs, PDPs &amp; Disciplinaries</span>
+			<li className="pb-3"><IoIosArrowForward className="inline" /> <span className="text-white">PIPs, PDPs &amp; Disciplinaries</span>
 				<span className="block ml-8">
 					I've had the unforunate experience of dealing with performance improvement plans in addition to formal discplinary hearings.
 				</span>

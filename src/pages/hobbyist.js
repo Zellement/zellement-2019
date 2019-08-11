@@ -104,9 +104,9 @@ const Page = props => (
 
     <p className="py-3 my-4">My first memory which has instilled a love for Batman in me is getting up on Saturday mornings and parking myself in front of Channel 4, waiting for one of the the best animated series of all time, <a className="hover:text-brown-feint text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.imdb.com/title/tt0103359/">Batman: The Animated Series</a>.</p>
 
-    <p className="py-3 my-4">I absolutely love the film Batman vs. Superman: Dawn of Justice, much to the dismay of most people I talk to. This fight scene alone is something else.</p>
+    <p className="py-3 my-4">I absolutely love the film <em>Batman vs. Superman: Dawn of Justice</em>, much to the dismay of most people I talk to. This fight scene alone is something else.</p>
 
-		<iframe title="Batman live action fight scene" className="mx-auto w-100 max-w-xl h-auto md:ml-0" src="https://www.youtube.com/embed/AnTSE-Qvt_E?start=92" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+		<iframe title="Batman live action fight scene" width="100%" height="400px" className="mx-auto w-100 max-w-xl md:ml-0" src="https://www.youtube.com/embed/AnTSE-Qvt_E?start=92" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 	</div>
 
