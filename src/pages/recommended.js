@@ -2,7 +2,6 @@ import React from 'react'
 import Layout from '../components/Layout'
 import AnimatedLink from "../components/AnimatedLink"
 import RecommendedPeople from "../components/Recommended/RecommendedPeople.js";
-import IconDeveloper from "../components/Icons/Developer.js";
 
 //import IconGatsbyJS from "../components/Icons/Developer/GatsbyJS.js";
 

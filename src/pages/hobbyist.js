@@ -53,7 +53,7 @@ const Page = props => (
 
     </div>
 
-		<h2 className="text-3xl text-grey-light mb-4 mt-6">Nottingham Forest</h2>
+		<h2 className="text-3xl text-grey-light mb-4 mt-8">Nottingham Forest</h2>
 
     <p className="py-3 my-4">I'm a season card holder at Nottingham Forest, because I just love being disappointed in life <FaRegMeh className="inline"/>. Since moving to Nottingham in circa 2007, I have adopted the city as my home, and have since embraced Forest.</p>
 
@@ -68,7 +68,7 @@ const Page = props => (
 
     </div>
 
-    <h2 className="text-3xl text-grey-light mb-4 mt-4">Tattoos</h2>
+    <h2 className="text-3xl text-grey-light mb-4 mt-8">Tattoos</h2>
 
     <p className="py-3 my-4">Just after my 18th birthday I got my first tattoo - a timeless tribal piece which has totally not gone out of fashion. I got the outline, but never filled it in; this allowed for an inverted style tattoo, which eventually grew.</p>
       
@@ -84,12 +84,29 @@ const Page = props => (
 
     </div>
 
-		<h2 className="text-3xl text-grey-light mb-4 mt-4">Weight Training</h2>
+		<h2 className="text-3xl text-grey-light mb-4 mt-8">Weight Training</h2>
 
-		<h2 className="text-3xl text-grey-light mb-4 mt-4">Cycling</h2>
-		<h2 className="text-3xl text-grey-light mb-4 mt-4">Batman</h2>
+    <p className="py-3 my-4">Since about 2013, I've been weight training up to 5 days a week. By no stretch do I consider myself a gym fanatic, however I do enjoy going to be able to switch off from the working day and begin the wind down of the evening.</p>
 
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/AnTSE-Qvt_E?start=92" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div className="relative">
+      
+      <Img className="w-100 mx-auto max-w-md sm:ml-0 md:max-w-sm" fluid={props.data.weightTrainingOne.childImageSharp.fluid} />
+
+        <p className="border-orange-400 z-50 border-l-2 p-8 font-color-font text-white bg-brown-standard sm:absolute sm:top-15 sm:right-1 sm:max-w-sm sm:pr-0 md:text-xl md:max-w-md md:top-10 md:bg-transparent lg:max-w-sm lg:top-5 xl:max-w-md xl:text-2xl xl:top-3">My personal best for deadlift is 180kg, and for bench press is just over 100kg.</p>
+
+      <Img className="w-100 max-w-md ml-auto sm:-mt-10 md:max-w-sm lg:-mt-56 lg:max-w-md" fluid={props.data.weightTrainingTwo.childImageSharp.fluid} />
+
+    </div>
+
+		{/*<h2 className="text-3xl text-grey-light mb-4 mt-4">Cycling</h2>*/}
+
+		<h2 className="text-3xl text-grey-light mb-4 mt-8">Batman</h2>
+
+    <p className="py-3 my-4">My first memory which has instilled a love for Batman in me is getting up on Saturday mornings and parking myself in front of Channel 4, waiting for one of the the best animated series of all time, <a className="hover:text-brown-feint text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.imdb.com/title/tt0103359/">Batman: The Animated Series</a>.</p>
+
+    <p className="py-3 my-4">I absolutely love the film Batman vs. Superman: Dawn of Justice, much to the dismay of most people I talk to. This fight scene alone is something else.</p>
+
+		<iframe title="Batman live action fight scene" className="mx-auto w-100 max-w-xl h-auto md:ml-0" src="https://www.youtube.com/embed/AnTSE-Qvt_E?start=92" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
 	</div>
 
@@ -144,6 +161,12 @@ export const pageQuery = graphql`
       ...fluidImage
     }
     nffcThree: file(relativePath: { eq: "hobbyist/nffc/nffc-03.jpg" }) {
+      ...fluidImage
+    }
+    weightTrainingOne: file(relativePath: { eq: "hobbyist/weight-training/weight-training-01.jpg" }) {
+      ...fluidImage
+    }
+    weightTrainingTwo: file(relativePath: { eq: "hobbyist/weight-training/weight-training-02.jpg" }) {
       ...fluidImage
     }
   }
