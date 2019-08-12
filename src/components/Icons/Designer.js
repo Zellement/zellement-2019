@@ -1,13 +1,13 @@
 import React from 'react'
 import Icon from "../../svgs/designer.svg";
+import AnimatedLink from "../../components/AnimatedLink"
 
 const IconDesigner = () => {
 
 	return (
 
-		<a aria-label="Visit the Developer page" className="self-center ml-2" href="/designer">
-			<Icon title="Designer" className="icons"/>
-		</a>
+		<AnimatedLink aria-label="Visit the Developer page" className="self-center ml-2" activeClassName="active" to="/designer"><Icon title="Designer" className="icons"/>
+		</AnimatedLink>
 
 	)
 

@@ -40,8 +40,8 @@ const HomePage = () => {
 
 					<RecommendedPeople
 						recPeopleTitle="Tom Nightingale"
-						recPeopleURL="http://www.wearehuddle.co.uk/"
-						recPeopleDisplayURL="www.wearehuddle.co.uk"
+						recPeopleURL="https://www.linkedin.com/in/tomnightingale/"
+						recPeopleDisplayURL="linkedin.com/in/tomnightingale/"
 						recPeopleClasses = {"order-" +  + Math.floor(Math.random() * 10)}
 						recPeopleJob="Front-end Developer, Designer &amp; Manager"
 						recPeopleDescription="I've worked with Tom for around a decade, and we've been through thick and thin at the company. I've the utmost respect for Tom and his unrivalled work ethic.  He's also a Forest fan.">
