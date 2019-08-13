@@ -18,13 +18,13 @@ const HomePage = props => (
     {/*<Img className="shadow-lg max-w-xl" fluid={} />*/}
   	
     <ul className="absolute top-20 z-50 right-2 lg:right-5">
-  		<li className="py-1 text-xl text-right">A <AnimatedLink className="text-white hover:text-orange-500" to="/developer">WordPress developer</AnimatedLink>.</li>
-  		<li className="py-1 text-xl text-right">A <AnimatedLink className="text-white hover:text-orange-500" to="/developer">front-end developer</AnimatedLink>.</li>
-  		<li className="py-1 text-xl text-right">An occasional <AnimatedLink className="text-white hover:text-orange-500" to="/designer">designer</AnimatedLink>.</li>
-      <li className="py-1 text-xl text-right">An experienced <AnimatedLink className="text-white hover:text-orange-500" to="/manager">manager</AnimatedLink>.</li>
-      <li className="py-1 text-xl text-right">A budding <AnimatedLink className="text-white hover:text-orange-500" to="/musician">musician</AnimatedLink>.</li>
-  		<li className="py-1 text-xl text-right">An average <AnimatedLink className="text-white hover:text-orange-500" to="/artist">artist</AnimatedLink>.</li>
-  		<li className="py-1 text-xl text-right">And a simple <AnimatedLink className="text-white hover:text-orange-500" to="/hobbyist">hobbyist</AnimatedLink>.</li>
+  		<li className="mb-1 text-xl text-right">A <AnimatedLink className="text-white hover:text-orange-500" to="/developer">WordPress developer</AnimatedLink>.</li>
+  		<li className="mb-1 text-xl text-right">A <AnimatedLink className="text-white hover:text-orange-500" to="/developer">front-end developer</AnimatedLink>.</li>
+  		<li className="mb-1 text-xl text-right">An occasional <AnimatedLink className="text-white hover:text-orange-500" to="/designer">designer</AnimatedLink>.</li>
+      <li className="mb-1 text-xl text-right">An experienced <AnimatedLink className="text-white hover:text-orange-500" to="/manager">manager</AnimatedLink>.</li>
+      <li className="mb-1 text-xl text-right">A budding <AnimatedLink className="text-white hover:text-orange-500" to="/musician">musician</AnimatedLink>.</li>
+  		<li className="mb-1 text-xl text-right">An average <AnimatedLink className="text-white hover:text-orange-500" to="/artist">artist</AnimatedLink>.</li>
+  		<li className="mb-1 text-xl text-right">And a simple <AnimatedLink className="text-white hover:text-orange-500" to="/hobbyist">hobbyist</AnimatedLink>.</li>
     	</ul>
 
   </div>
