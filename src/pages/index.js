@@ -2,7 +2,6 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import AnimatedLink from "../components/AnimatedLink"
-import Img from 'gatsby-image';
 
 import BackgroundImage from 'gatsby-background-image'
 

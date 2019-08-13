@@ -5,10 +5,22 @@ import RecommendedPeople from "../components/Recommended/RecommendedPeople.js";
 
 //import IconGatsbyJS from "../components/Icons/Developer/GatsbyJS.js";
 
-const HomePage = () => {
+const RecommendedPage = () => {
+
+/*	function fadeIn(){
+		const getAll = document.getElementsByClassName("recommendedPeople");
+		console.log(getAll);
+		for(var i = 0; i < getAll.length; i++)
+		{
+			getAll[i].className += "classtobeadded";
+		}
+	}*/
 
 	return (
+
 		<Layout classProps="pt-8 mt-12 md:mt-0 mx-auto px-4 md:p-10 lg:p-16 lg:pr-0">
+
+	{/*fadeIn()*/}
 
 			<div className="max-w-3xl">
 
@@ -145,4 +157,4 @@ const HomePage = () => {
 	)
 }
 
-export default HomePage
+export default RecommendedPage
