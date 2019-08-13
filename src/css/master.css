@@ -105,6 +105,9 @@ Logo
   @apply top-0 bottom-0 left-0 right-0 absolute z-30;
 }
 
+.recommendedPeople {
+  transition: 3s;
+}
 /* --------------------------
 Navigation
 -------------------------- */

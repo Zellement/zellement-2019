@@ -40,7 +40,7 @@ module.exports = {
         // Avoids sending pageview hits from custom paths
         exclude: ["/preview/**", "/do-not-track/me/too/"],
         // Delays sending pageview hits on route update (in milliseconds)
-        pageTransitionDelay: 0,
+        pageTransitionDelay: 2,
         sampleRate: 5,
         siteSpeedSampleRate: 10,
       },

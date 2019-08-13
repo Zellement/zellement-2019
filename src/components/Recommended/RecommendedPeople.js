@@ -6,7 +6,7 @@ const RecommendedPeople = ({recPeopleTitle, recPeopleURL, recPeopleDisplayURL, r
 
 	return (
 
-		<div className={"border-b border-orange-800 pb-8 lg:w-1/2 pr-4 " + recPeopleClasses}>
+		<div className={"border-b border-orange-800 pb-8 lg:w-1/2 pr-4 recommendedPeople " + recPeopleClasses}>
 
 			<div className="flex flex-col lg:flex-row lg:flex-wrap items-stretch w-100 justify-between max-w-3xl">
 
