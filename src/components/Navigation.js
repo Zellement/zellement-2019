@@ -33,7 +33,7 @@ const Navigation = class extends React.Component {
       </div>
       <div>
       </div>
-      <div className={`${burgerActive} navigation-button w-12 h-12 block fixed top-0 right-0 bg-brown-light z-50 cursor-pointer md:hidden`} onClick={this.toggleMenu}>
+      <div className={`${burgerActive} navigation-button w-12 h-12 block fixed top-0 right-0 mt-1 mr-1 bg-brown-light z-50 cursor-pointer md:hidden`} onClick={this.toggleMenu}>
         <div className={`relative w-full h-full z-100 ${burgerActive}`}>
           <span className="navigation-button__lines navigation-button__line-1 left-0"></span>
           <span className="navigation-button__lines navigation-button__line-2 left-0 mt-2"></span>

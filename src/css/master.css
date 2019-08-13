@@ -99,6 +99,12 @@ Logo
   height: auto;
 }
 
+.home-page-image:after {
+  content: '';
+  background: rgb(26, 25, 24,0.8);
+  @apply top-0 bottom-0 left-0 right-0 absolute z-30;
+}
+
 /* --------------------------
 Navigation
 -------------------------- */

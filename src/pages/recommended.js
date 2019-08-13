@@ -8,7 +8,7 @@ import RecommendedPeople from "../components/Recommended/RecommendedPeople.js";
 const HomePage = () => {
 
 	return (
-		<Layout>
+		<Layout classProps="pt-8 mt-12 md:mt-0 mx-auto px-4 md:p-10 lg:p-16 lg:pr-0">
 
 			<div className="max-w-3xl">
 
