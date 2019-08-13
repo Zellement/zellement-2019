@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import AnimatedLink from "../components/AnimatedLink"
 import Img from "gatsby-image"
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 //import IconGatsbyJS from "../components/Icons/Developer/GatsbyJS.js";
 
@@ -12,12 +13,12 @@ const Page = props => (
   	<div className="max-w-3xl">
 	  	<p className="text-md tracking-wider font-color-font"><AnimatedLink to="/">Dan Farrow</AnimatedLink> > Musician</p>
 		<h1 className="text-5xl text-grey-light mb-8">Musician.</h1>
-		<p className="py-3 text-lg max-w-3xl">I'm hugely into a select few genres of music, but mostly a massive metalhead. From old school metal bands like <a className="text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.slayer.net">Slayer</a> and <a className="text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.metallica.com">Metallica</a>, all the way through to heavier bands such as <a className="text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.lamb-of-god.com/">Lamb of God</a>, <a className="text-white underline" target="_blank" rel="noopener noreferrer" href="https://behemoth.pl/">Behemoth</a> and Pantera.</p>
-		<p className="pb-3 text-md max-w-3xl">In addition to metal, I've found myself listening to a lot of "modern classical", much of which consists of film and TV music. I can't get enough of my <a className="text-white underline" target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/42p1sRbO9jR4wFq8LDnAXh/">self-proclaimed classical playlist</a> on Spotify, a lot of which comes in the form on Hans Zimmer.</p>
+		<p className="py-3 text-lg max-w-3xl">I'm hugely into a select few genres of music, but mostly a massive metalhead. From old school metal bands like <OutboundLink className="text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.slayer.net">Slayer</OutboundLink> and <OutboundLink className="text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.metallica.com">Metallica</OutboundLink>, all the way through to heavier bands such as <OutboundLink className="text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.lamb-of-god.com/">Lamb of God</OutboundLink>, <OutboundLink className="text-white underline" target="_blank" rel="noopener noreferrer" href="https://behemoth.pl/">Behemoth</OutboundLink> and Pantera.</p>
+		<p className="pb-3 text-md max-w-3xl">In addition to metal, I've found myself listening to a lot of "modern classical", much of which consists of film and TV music. I can't get enough of my <OutboundLink className="text-white underline" target="_blank" rel="noopener noreferrer" href="https://open.spotify.com/playlist/42p1sRbO9jR4wFq8LDnAXh/">self-proclaimed classical playlist</OutboundLink> on Spotify, a lot of which comes in the form on Hans Zimmer.</p>
 		
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Guitarist</h2>
 
-		<p className="max-w-lg text-lg mb-4">Since 2011, I have been the guitarist for a Nottingham based metal band called <em><a className="text-white underline" target="_blank" rel="noopener noreferrer" href="http://www.ropewalkband.com">Ropewalk</a></em>.</p>
+		<p className="max-w-lg text-lg mb-4">Since 2011, I have been the guitarist for a Nottingham based metal band called <em><OutboundLink className="text-white underline" target="_blank" rel="noopener noreferrer" href="http://www.ropewalkband.com">Ropewalk</OutboundLink></em>.</p>
 
 		<p className="max-w-lg mb-8">I'm a self-taught guitarist since picking up a brand new <em>Jay Turser</em> 6 string in my late teens (my first electric instrument was actually a 5 string bass). I learned tab to start off, and still only know about 3 chords. Our singer left in 2016, and since then I've taken on the vocals role too.</p>
 

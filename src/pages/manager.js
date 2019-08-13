@@ -3,6 +3,7 @@ import Layout from '../components/Layout'
 import AnimatedLink from "../components/AnimatedLink"
 import Img from "gatsby-image"
 import XmasGif from '../images/manager/xmas-gif.gif'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import { IoIosArrowForward } from 'react-icons/io';
 import { GoHeart } from 'react-icons/go';
@@ -15,7 +16,7 @@ const Page = props => (
 	  	<p className="text-md tracking-wider font-color-font"><AnimatedLink to="/">Dan Farrow</AnimatedLink> > Manager</p>
 		<h1 className="text-5xl text-grey-light mb-8">Manager.</h1>
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">History</h2>
-		<p className="py-3 text-lg">My first official managerial role came in the shape of the <em>Head of Web Design</em> for <a className="hover:text-brown-light text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.adtrak.co.uk">Adtrak</a>. Before this, I was part of the Web Design team, and was quickly recognised for my effective working practices, attention to detail and leadership qualities. Just 8 months in to my role with Adtrak, I was promoted to the head of department, and managed myself and 2 other designers.</p>
+		<p className="py-3 text-lg">My first official managerial role came in the shape of the <em>Head of Web Design</em> for <OutboundLink className="hover:text-brown-light text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.adtrak.co.uk">Adtrak</OutboundLink>. Before this, I was part of the Web Design team, and was quickly recognised for my effective working practices, attention to detail and leadership qualities. Just 8 months in to my role with Adtrak, I was promoted to the head of department, and managed myself and 2 other designers.</p>
 
 	    <div className="relative mb-10">
 
@@ -170,7 +171,7 @@ const Page = props => (
 
 		<p className="pb-3 text-md">This formal and informal training has been the cornerstone to my progression as a manager and leader, and has revealed the following traits;</p>
 		<ul>
-			<li className="pb-3"><IoIosArrowForward className="inline" /> <a name="Visit Myers Briggs" className="hover:text-brown-light text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/home.htm?bhcp=1">MBTI</a>
+			<li className="pb-3"><IoIosArrowForward className="inline" /> <OutboundLink name="Visit Myers Briggs" className="hover:text-brown-light text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/home.htm?bhcp=1">MBTI</OutboundLink>
 				<span className="block ml-8">
 					One of the first training sessions I received was identifying my own personality type, and learning that of others. My personality test revealed my natural inclination toward the following;
 					<span className="block ml-8">I - Introvert</span>
@@ -183,7 +184,7 @@ const Page = props => (
 			<li className="pb-3 flex flex-col md:flex-row">
 
 				<span className="md:w-2/3">
-					<IoIosArrowForward className="inline" /> <a name="Visit Tilt 365" className="hover:text-brown-light text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.tilt365.com/">Tilt 365</a>
+					<IoIosArrowForward className="inline" /> <OutboundLink name="Visit Tilt 365" className="hover:text-brown-light text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.tilt365.com/">Tilt 365</OutboundLink>
 						<span className="block ml-8 md:pr-4">
 							Following another self-completed survey, my Tilt 365 profile returned myself to be <em>Master Mind</em>. Although I accept that my natural persuasion is to think in this way, I believe I am very competent at being able to <em>tilt</em> in to other personality persuasions, dependent on the situation.
 						</span>
@@ -192,7 +193,7 @@ const Page = props => (
 	      		<Img alt="My Tilt 365 profile returned master mind" className="w-32 my-4 shadow self-center block max-w-lg h-40" fluid={props.data.mastermind.childImageSharp.fluid} />
 
 			</li>
-			<li className="pb-3"><IoIosArrowForward className="inline" /> <a name="Visit Situational.com" className="hover:text-brown-light text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.situational.com/the-cls-difference/situational-leadership-what-we-do/">Situational Leadership</a>
+			<li className="pb-3"><IoIosArrowForward className="inline" /> <OutboundLink name="Visit Situational.com" className="hover:text-brown-light text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.situational.com/the-cls-difference/situational-leadership-what-we-do/">Situational Leadership</OutboundLink>
 				<span className="block ml-8">
 					I've been trained on Situational Leadership, and how changing style depending on the situation can be very effective.
 				</span>

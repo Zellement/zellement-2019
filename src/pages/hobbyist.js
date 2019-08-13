@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import AnimatedLink from "../components/AnimatedLink"
 import Img from "gatsby-image"
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 
 import { FaRegMeh } from 'react-icons/fa';
 
@@ -76,7 +77,7 @@ const Page = props => (
 
     <div className="relative">
 
-      <p className="border-orange-400 z-50 border-l-2 p-8 font-color-font text-white bg-brown-standard sm:absolute sm:bottom-2 sm:right-0 sm:max-w-sm sm:pr-0 md:text-xl md:max-w-md lg:max-w-sm xl:max-w-md xl:text-2xl">For all my tattoos I now visit one artist, <a className="hover:text-white text-brown-feint" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/kevrichardsontattoo/">Kev Richardson</a>, based in Nottingham.</p>
+      <p className="border-orange-400 z-50 border-l-2 p-8 font-color-font text-white bg-brown-standard sm:absolute sm:bottom-2 sm:right-0 sm:max-w-sm sm:pr-0 md:text-xl md:max-w-md lg:max-w-sm xl:max-w-md xl:text-2xl">For all my tattoos I now visit one artist, <OutboundLink className="hover:text-white text-brown-feint" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/kevrichardsontattoo/">Kev Richardson</OutboundLink>, based in Nottingham.</p>
       
       <Img className="w-100 max-w-xl" fluid={props.data.tattoosOne.childImageSharp.fluid} />
 
@@ -100,7 +101,7 @@ const Page = props => (
 
 		<h2 className="text-3xl text-grey-light mb-4 mt-8">Batman</h2>
 
-    <p className="py-3 my-4 max-w-xl">My first memory which has instilled a love for Batman in me is getting up on Saturday mornings and parking myself in front of Channel 4, waiting for one of the the best animated series of all time, <a className="hover:text-brown-feint text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.imdb.com/title/tt0103359/">Batman: The Animated Series</a>, to come on.</p>
+    <p className="py-3 my-4 max-w-xl">My first memory which has instilled a love for Batman in me is getting up on Saturday mornings and parking myself in front of Channel 4, waiting for one of the the best animated series of all time, <OutboundLink className="hover:text-brown-feint text-white underline" target="_blank" rel="noopener noreferrer" href="https://www.imdb.com/title/tt0103359/">Batman: The Animated Series</OutboundLink>, to come on.</p>
       
       <Img className="w-100 max-w-3xl" fluid={props.data.batmanOne.childImageSharp.fluid} />
 

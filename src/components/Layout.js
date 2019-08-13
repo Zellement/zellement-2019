@@ -32,7 +32,7 @@ const Layout = ({ classProps, children }) => (
 		</Helmet>
       <div className="md:flex md:flex-wrap md:justify-end">
         <Header siteTitle={data.site.siteMetadata.title} />
-        <main className={"md:w-2/3 lg:w-3/4 overflow-hidden"}>
+        <main className={"md:w-2/3 lg:w-3/4"}>
           <div className={classProps}>
           {children}
           </div>

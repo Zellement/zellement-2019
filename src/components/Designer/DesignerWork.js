@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import { GoLinkExternal } from 'react-icons/go';
 
 const DesignerWork = ({devTitle, devURL, devDisplayURL, devDescription, children}) => {
@@ -13,7 +14,7 @@ const DesignerWork = ({devTitle, devURL, devDisplayURL, devDescription, children
 				<div>
 
 					<h3 className="text-2xl mt-5">{devTitle}</h3>
-					<p><a className="hover:text-white text-brown-light" target="_blank" rel="noopener noreferrer" href={devURL}>{devDisplayURL} <GoLinkExternal className="inline" /></a></p>
+					<p><OutboundLink className="hover:text-white text-brown-light" target="_blank" rel="noopener noreferrer" href={devURL}>{devDisplayURL} <GoLinkExternal className="inline" /></OutboundLink></p>
 
 				</div>
 
