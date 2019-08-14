@@ -61,7 +61,7 @@ const Page = props => (
 
 	   		<div className="my-10 flex flex-col lg:flex-row lg:pt-10">
 
-				<p className="pb-8 text-md lg:w-1/4">In 2016, Adtrak's growth opened up an opportunity for an addiitonal support layer below the directors, and I was promoted into the role of a <em>Senior Manager</em>. In this role I was responsible for helping make key decisions on the direction of the company, and overseeing 3 different departments - Web Design, Web Development and Web Leasing. I managed to fulfil this role in addition to being Head of Web Design, until a massive company re-structure redefined my role into the <em>Assistant Customer Operations Director</em>.</p>
+				<p className="pb-8 text-md lg:w-1/4">In 2016, Adtrak's growth opened up an opportunity for an additional support layer below the directors, and I was promoted into the role of a <em>Senior Manager</em>. In this role I was responsible for helping make key decisions on the direction of the company, and overseeing 3 different departments - Web Design, Web Development and Web Leasing. I managed to fulfil this role in addition to being Head of Web Design, until a massive company re-structure redefined my role into the <em>Assistant Customer Operations Director</em>.</p>
 
 				<div className="flex flex-col lg:w-3/4">
 
