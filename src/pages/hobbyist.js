@@ -106,8 +106,14 @@ const Page = props => (
       <Img className="w-100 max-w-3xl" fluid={props.data.batmanOne.childImageSharp.fluid} />
 
     <p className="py-3 my-4 max-w-xl">I absolutely love the film <em>Batman vs. Superman: Dawn of Justice</em>, much to the dismay and disbelief of most people I talk to. This fight scene alone is something else.</p>
-
-		<iframe title="Batman live action fight scene" width="100%" height="400px" className="mx-auto w-100 max-w-xl md:ml-0" src="https://www.youtube.com/embed/AnTSE-Qvt_E?start=92" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+    
+    <iframe title="Batman live action fight scene"
+    width="100%"
+    height="400px"
+    className="mx-auto w-100 max-w-xl md:ml-0"
+    src="https://www.youtube.com/embed/JKSottBl7ow?start=59"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
 
 	</div>
 
