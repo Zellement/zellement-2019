@@ -146,7 +146,7 @@ const RecommendedPage = () => {
 						recPeopleDisplayURL="linkedin.com/in/iamchrisrutter/"
 						recPeopleClasses = {"order-" +  + Math.floor(Math.random() * 10)}
 						recPeopleJob="Technical &amp; IT Guru"
-						recPeopleDescription="Chris's techincal mind in how to integrate systems is high class - he works very hard in order to make things efficient and will make it his mission to understand a process first in order to improve it.">
+						recPeopleDescription="Chris's technical mind in how to integrate systems is high class - he works very hard in order to make things efficient and will make it his mission to understand a process first in order to improve it.">
 					</RecommendedPeople>
 
 				</div>
