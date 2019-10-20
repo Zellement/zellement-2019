@@ -8,7 +8,7 @@ import BackgroundImage from 'gatsby-background-image'
 const HomePage = props => (
   <Layout>
 
-  <div className="relative home-page-image">
+  <div className="relative home-page-image z-10">
     <BackgroundImage Tag="section" className='w-100 h-screen bg-left' fluid={props.data.meOne.childImageSharp.fluid} backgroundColor={`#040e18`} />
 
   	<h1 className="text-6xl text-grey-light leading-none absolute right-2 top-6 z-50 lg:right-5">Hello.</h1>
