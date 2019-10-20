@@ -19,6 +19,13 @@ module.exports = {
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-postcss`,
+    { 
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        printRejected: true,
+        tailwind: true, 
+        whitelistPatterns: [/is-active/],
+    },
     {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {

@@ -11,12 +11,12 @@ const HomePage = props => (
   <div className="relative home-page-image z-10">
     <BackgroundImage Tag="section" className='w-100 h-screen bg-left' fluid={props.data.meOne.childImageSharp.fluid} backgroundColor={`#040e18`} />
 
-  	<h1 className="text-6xl text-grey-light leading-none absolute right-2 top-6 z-50 lg:right-5">Hello.</h1>
-  	<h2 className="text-3xl text-grey-light leading-none absolute right-2 top-11 z-50 lg:right-5">I'm Dan Farrow.</h2>
+  	<h1 className="text-6xl text-grey-light leading-none absolute right-2 top-6 z-40 lg:right-5">Hello.</h1>
+  	<h2 className="text-3xl text-grey-light leading-none absolute right-2 top-11 z-40 lg:right-5">I'm Dan Farrow.</h2>
 
     {/*<Img className="shadow-lg max-w-xl" fluid={} />*/}
   	
-    <ul className="absolute top-20 z-50 right-2 lg:right-5">
+    <ul className="absolute top-20 z-40 right-2 lg:right-5">
   		<li className="mb-1 text-xl text-right">A <AnimatedLink className="text-white hover:text-orange-500" to="/developer">WordPress developer</AnimatedLink>.</li>
   		<li className="mb-1 text-xl text-right">A <AnimatedLink className="text-white hover:text-orange-500" to="/developer">front-end developer</AnimatedLink>.</li>
   		<li className="mb-1 text-xl text-right">An occasional <AnimatedLink className="text-white hover:text-orange-500" to="/designer">designer</AnimatedLink>.</li>

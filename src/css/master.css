@@ -6,6 +6,10 @@
 Custom utilities
 -------------------------- */
 
+.color-font, .standard-font {
+  font-display: swap;
+}
+
 @responsive {
 
   .rotate-0 {
