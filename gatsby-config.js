@@ -21,10 +21,6 @@ module.exports = {
     `gatsby-plugin-postcss`,
     { 
       resolve: `gatsby-plugin-purgecss`,
-      options: {
-        printRejected: true,
-        tailwind: true, 
-        whitelistPatterns: [/is-active/],
     },
     {
       resolve: 'gatsby-plugin-web-font-loader',
