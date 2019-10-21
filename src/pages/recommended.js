@@ -28,7 +28,6 @@ const RecommendedPage = () => {
 				<h1 className="text-5xl text-grey-light mb-8">Recommended.</h1>
 				<p className="py-3 text-lg">I've been very lucky and grateful for working with some amazing people over the years. This page is dedicated to those people.</p>
 				<h2 className="text-3xl text-grey-light mb-4 mt-4">Recommended People</h2>
-				<p className="py-3">This list is randomly ordered on each page load.</p>
 
 				<div className="flex flex-col lg:flex-row lg:flex-wrap">
 
