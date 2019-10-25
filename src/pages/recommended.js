@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/Layout'
+import Wrapper from '../components/Wrapper'
 import AnimatedLink from "../components/AnimatedLink"
 import RecommendedPeople from "../components/Recommended/RecommendedPeople.js";
 
@@ -18,7 +18,7 @@ const RecommendedPage = () => {
 
 	return (
 
-		<Layout seoTitle="Recommended People || Dan Farrow" classProps="pt-8 mt-12 md:mt-0 mx-auto px-4 md:p-10 lg:p-16 lg:pr-0">
+		<Wrapper seoTitle="Recommended People || Dan Farrow" classProps="pt-8 mt-12 md:mt-0 mx-auto px-4 md:p-10 lg:p-16 lg:pr-0">
 
 	{/*fadeIn()*/}
 
@@ -161,7 +161,7 @@ const RecommendedPage = () => {
 
 			</div>
 
-		</Layout>
+		</Wrapper>
 	)
 }
 

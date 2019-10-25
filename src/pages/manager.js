@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/Layout'
+import Wrapper from '../components/Wrapper'
 import AnimatedLink from "../components/AnimatedLink"
 import Img from "gatsby-image"
 import XmasGif from '../images/manager/xmas-gif.gif'
@@ -10,7 +10,7 @@ import { GoHeart } from 'react-icons/go';
 
 
 const Page = props => (
-  <Layout seoTitle="Experienced Manager || Dan Farrow" classProps="pt-8 mt-12 md:mt-0 mx-auto px-4 md:p-10 lg:p-16 lg:pr-0">
+  <Wrapper seoTitle="Experienced Manager || Dan Farrow" classProps="pt-8 mt-12 md:mt-0 mx-auto px-4 md:p-10 lg:p-16 lg:pr-0">
 
   	<div className="max-w-3xl">
 	  	<p className="text-md tracking-wider font-color-font"><AnimatedLink to="/">Dan Farrow</AnimatedLink> > Manager</p>
@@ -202,7 +202,7 @@ const Page = props => (
 
 	</div>
 
-  </Layout>
+  </Wrapper>
 )
 
 export default Page

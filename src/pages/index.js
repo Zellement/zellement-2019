@@ -1,12 +1,12 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
+import Wrapper from '../components/Wrapper'
 import AnimatedLink from "../components/AnimatedLink"
 
 import BackgroundImage from 'gatsby-background-image'
 
 const HomePage = props => (
-  <Layout seoDescription="A Nottingham based WordPress and front-end developer, with experience in management, leadership and design." seoTitle="WordPress Developer & Front-end Developer Nottingham">
+  <Wrapper seoDescription="A Nottingham based WordPress and front-end developer, with experience in management, leadership and design." seoTitle="WordPress Developer & Front-end Developer Nottingham">
 
   <div className="relative home-page-image z-10">
     <BackgroundImage Tag="section" className='w-100 h-screen bg-left' fluid={props.data.meOne.childImageSharp.fluid} backgroundColor={`#040e18`} />
@@ -28,7 +28,7 @@ const HomePage = props => (
 
   </div>
 
-  </Layout>
+  </Wrapper>
 )
 
 export default HomePage
