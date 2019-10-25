@@ -4,7 +4,7 @@ import AnimatedLink from "../components/AnimatedLink"
 const Logo = () => (
   <div className="pt-2 pl-2 pr-2 pb-1">
     <AnimatedLink to="/" className="text-centre" title="Go home">
-    	<svg className="logo fill-current text-brown-light m-3 md:ml-auto" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+    	<svg className="logo transition-fast fill-current text-brown-light m-3 md:ml-auto hover:opacity-75" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 	viewBox="0 0 459.8 290.8" xmlSpace="preserve">
 			<path d="M1.3,0h458.5c-1.8,75.1-12.9,132.1-33.4,171c-20.5,38.9-50,66.8-88.4,83.8c-38.4,17-85.8,26.7-142.1,28.8
 			c-56.3,2.2-121.6,3.3-195.9,3.3v-13.1c40.2-1.7,81.7-3.7,124.5-5.9c42.8-2.2,82.1-9.8,117.9-22.9c35.8-13.1,66.4-34.1,91.7-62.9
