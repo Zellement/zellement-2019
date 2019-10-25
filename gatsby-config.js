@@ -1,8 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Zellement.com`,
-    description: `Online presence of Dan Farrow`,
+    title: "Zellement.com",
+    titleTemplate: "%s · Web Developer Nottingham",
     author: `@Zellement`,
+    description:
+      "Online presence of Dan Farrow - Web Designer & Web Developer",
+    url: "https://www.zellement.com", // No trailing slash allowed!
+    twitterUsername: "@Zellement",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -1,11 +1,11 @@
 import React from "react"
-import Helmet from 'react-helmet'
+import { Helmet } from 'react-helmet'
 import Header from "./Header"
 import Footer from "./Footer"
 import { StaticQuery, graphql } from "gatsby"
 import '../css/master.css'
 
-const Layout = ({ classProps, children }) => (
+const Layout = ({ classProps, children, seoTitle, seoDescription }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -21,8 +21,8 @@ const Layout = ({ classProps, children }) => (
       <>
 		<Helmet>
 			<html lang="en" />
-			<title>{data.site.siteMetadata.title}</title>
-			<meta name="description" content={data.site.siteMetadata.description} />
+			<title>{seoTitle ? seoTitle : data.site.siteMetadata.title}</title>
+			<meta name="description" content={seoDescription ? seoDescription : data.site.siteMetadata.description} />
 			<meta name="theme-color" content="#b5aba2" />
 			<meta property="og:type" content="business.business" />
 			<meta property="og:title" content={data.site.siteMetadata.title} />

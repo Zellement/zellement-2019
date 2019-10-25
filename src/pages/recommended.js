@@ -18,7 +18,7 @@ const RecommendedPage = () => {
 
 	return (
 
-		<Layout classProps="pt-8 mt-12 md:mt-0 mx-auto px-4 md:p-10 lg:p-16 lg:pr-0">
+		<Layout seoTitle="Recommended People || Dan Farrow" classProps="pt-8 mt-12 md:mt-0 mx-auto px-4 md:p-10 lg:p-16 lg:pr-0">
 
 	{/*fadeIn()*/}
 

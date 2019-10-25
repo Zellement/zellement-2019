@@ -6,7 +6,7 @@ import AnimatedLink from "../components/AnimatedLink"
 import BackgroundImage from 'gatsby-background-image'
 
 const HomePage = props => (
-  <Layout>
+  <Layout seoDescription="A Nottingham based WordPress and front-end developer, with experience in management, leadership and design." seoTitle="WordPress Developer & Front-end Developer Nottingham">
 
   <div className="relative home-page-image z-10">
     <BackgroundImage Tag="section" className='w-100 h-screen bg-left' fluid={props.data.meOne.childImageSharp.fluid} backgroundColor={`#040e18`} />
