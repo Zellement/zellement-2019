@@ -105,7 +105,7 @@ const Page = props => (
       
       <Img className="w-100 max-w-3xl" fluid={props.data.batmanOne.childImageSharp.fluid} />
 
-    <p className="py-3 my-4 max-w-xl">I absolutely love the film <em>Batman vs. Superman: Dawn of Justice</em>, much to the dismay and disbelief of most people I talk to. This fight scene alone is something else.</p>
+    <p className="py-3 my-4 max-w-xl">I absolutely love the film <em>Batman vs. Superman: Dawn of Justice (Ultimate Edition)</em>, much to the dismay and disbelief of most people I talk to. This fight scene alone is something else.</p>
     
     <iframe title="Batman live action fight scene"
     width="100%"
@@ -114,6 +114,8 @@ const Page = props => (
     src="https://www.youtube.com/embed/JKSottBl7ow?start=59"
     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen></iframe>
+
+    <p className="py-3 my-4 max-w-xl">I'm a massive supporter of the <a className="hover:text-brown-feint text-white underline" nofollow noreferrer target="_blank" href="https://www.snydercut.com/">#ReleaseTheSnyderCut</a> movement.</p>
 
 	</div>
 
