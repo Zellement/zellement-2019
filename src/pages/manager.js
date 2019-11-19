@@ -1,4 +1,5 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import Wrapper from '../components/Wrapper'
 import AnimatedLink from "../components/AnimatedLink"
 import Img from "gatsby-image"
