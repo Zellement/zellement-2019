@@ -26,7 +26,7 @@ const Page = props => (
 
   			<Img className="w-100 max-w-sm mr-auto xl:max-w-md" fluid={props.data.ropewalkOne.childImageSharp.fluid} />
 
-        <p className="border-orange-400 border-l-2 p-8 font-color-font text-white bg-brown-standard sm:absolute sm:top-4 sm:right-0 sm:max-w-sm sm:pr-0 sm:mt-64 md:text-xl md:-pl-16 md:bg-transparent lg:pt-6 lg:top-0 xl:mt-48 xl:text-2xl">I've since "upgraded" my Jay Turser to an ESP LTD Explorer style, tuned to Dropped C, using Ernie Ball strings.</p>
+        <p className="border-orange-400 border-l-2 p-8 font-color-font text-white bg-brown-standard sm:absolute sm:top-4 sm:right-0 sm:max-w-sm sm:pr-0 sm:mt-64 md:text-xl md:-pl-16 md:bg-transparent lg:pt-6 lg:top-0 xl:mt-48 xl:text-2xl">I've since "upgraded" my Jay Turser to an ESP Ltd EC-1000 (standard) and ESP Ltd Explorer (drop C).</p>
   
   			<Img className="w-100 max-w-sm ml-auto sm:-mt-10 sm:-mt-24 mb-4 lg:-mt-40 xl:-mt-56" fluid={props.data.ropewalkTwo.childImageSharp.fluid} />
 
