@@ -55,9 +55,9 @@ export default  () => (
 					<div className="text-right my-auto pr-2">
 						<span className="uppercase text-white text-sm tracking-wider font-color-font">
 							{spotifyData.node.album.artists.map(albumData => (
-								<>
+								<span key={albumData.name}>
 								{albumData.name}
-								</>
+								</span>
 							))}
 						</span>
 						<span className="text-xs block uppercase tracking-wider font-color-font">

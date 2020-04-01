@@ -112,10 +112,9 @@ const Page = props => (
     height="400px"
     className="mx-auto w-100 max-w-xl md:ml-0"
     src="https://www.youtube.com/embed/JKSottBl7ow?start=59"
-    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen></iframe>
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
 
-    <p className="py-3 my-4 max-w-xl">I'm a massive supporter of the <a className="hover:text-brown-feint text-white underline" nofollow noreferrer target="_blank" href="https://www.snydercut.com/">#ReleaseTheSnyderCut</a> movement.</p>
+    <p className="py-3 my-4 max-w-xl">I'm a massive supporter of the <a className="hover:text-brown-feint text-white underline" target="_blank" href="https://www.snydercut.com/" rel="noopener noreferrer">#ReleaseTheSnyderCut</a> movement.</p>
 
 	</div>
 
