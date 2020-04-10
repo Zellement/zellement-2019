@@ -10,6 +10,7 @@ import IconNetlify from "../components/Icons/Developer/Netlify.js";
 import IconNetlifyCMS from "../components/Icons/Developer/NetlifyCMS.js";
 import IconTailwind from "../components/Icons/Developer/Tailwind.js";
 import IconWordPress from "../components/Icons/Developer/WordPress.js";
+import IconPrismic from "../components/Icons/Developer/Prismic.js";
 import IconcPanel from "../components/Icons/Developer/cPanel.js";
 import IconDesigner from "../components/Icons/Designer.js";
 
@@ -23,6 +24,19 @@ const HomePage = () => (
 		<p className="pb-3 text-md">In recent years, I have worked predominantly as a WordPress developer, but I have recently been using newer technologies such as GatsbyJS to deliver headless CMS websites.</p>
 		<h2 className="text-3xl text-grey-light mb-4 mt-4">Development Work</h2>
 	</div>
+
+	<DevelopmentWork
+		devTitle="Formula One Gym"
+		devURL="https://www.formulaonegym.co.uk"
+		devDisplayURL="www.formulaonegym.co.uk"
+		devDescription="Built with Prismic CMS, Gatsby and Tailwind, this was for a small local gym looking to compete in a competitive marketplace.">
+		<IconDesigner />
+		<IconGatsbyJS />
+		<IconPrismic />
+		<IconGraphQL />
+		<IconTailwind />
+		<IconNetlify />
+	</DevelopmentWork>
 
 	<DevelopmentWork
 		devTitle="Sheringham Shantymen"

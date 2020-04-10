@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon from "../../../svgs/figma.svg";
 
-const IconAdobeXD = () => {
+const IconFigma = () => {
 
 	return (
 
@@ -13,4 +13,4 @@ const IconAdobeXD = () => {
 
 }
 
-export default IconAdobeXD
+export default IconFigma
