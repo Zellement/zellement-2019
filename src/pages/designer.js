@@ -10,6 +10,8 @@ import DesignerWork from "../components/Designer/DesignerWork.js";
 
 import IconPhotoshop from "../components/Icons/Designer/Photoshop.js";
 import IconAdobeXD from "../components/Icons/Designer/AdobeXD.js";
+import IconFigma from "../components/Icons/Designer/Figma.js";
+
 import IconDeveloper from "../components/Icons/Developer.js";
 
 const DesignerPage = props => {
@@ -45,6 +47,44 @@ const DesignerPage = props => {
         <Img className="shadow-lg mx-auto md:mr-0 pb-8 md:ml-auto md:max-w-xl lg:-mt-24 lg:max-w-md xl:-mt-56" fluid={props.data.tbaaTwo.childImageSharp.fluid} />
 
         <Img className="shadow-lg mx-auto md:mr-auto pb-8 md:ml-0 md:max-w-xl lg:-mt-24 lg:max-w-sm xl:-mt-40" fluid={props.data.tbaaThree.childImageSharp.fluid} />
+
+        <div className="border-b border-orange-800 pb-10 max-w-3xl"></div>
+
+        {/* 
+          --------------------------------------------------------
+          Formula One Gym
+          --------------------------------------------------------
+        */}
+
+        <DesignerWork
+          devTitle="Formula One Gym"
+          devURL="https://www.formulaonegym.co.uk/"
+          devDisplayURL="www.formulaonegym.co.uk"
+          devDescription="The original design wasn't awful by any stretch, but probably just a little tired and needed a bit of modernising. The gym market is highly competitive, so the owners were keen to get across to their potential clients their unique selling points and why to use this gym, as well as injecting some colour into the site.">
+          <IconDeveloper />
+          <IconFigma />
+        </DesignerWork>
+
+        <div className="relative absolute-image-wrapper max-w-3xl">
+
+            <Img className="shadow-lg absolute-image max-w-3xl z-0 top-0 left-0" fluid={props.data.f1Before.childImageSharp.fluid} />
+
+            <p className="absolute top-2 right-0 z-0 bg-brown-standard text-brown-feint p-3">Original</p>
+
+          <ImageShowHide>
+
+            <Img className="shadow-lg absolute-image max-w-3xl z-10 top-0 left-0" fluid={props.data.f1After.childImageSharp.fluid} />
+
+            <p className="absolute top-2 right-0 z-10 bg-brown-standard text-brown-feint p-3">New</p>
+
+          </ImageShowHide>
+
+        </div>
+
+
+        <Img className="shadow-lg mt-4 mx-auto md:mr-0 md:ml-auto md:max-w-xl lg:max-w-sm xl:max-w-md" fluid={props.data.f1Three.childImageSharp.fluid} />
+
+        <Img className="shadow-lg mx-auto md:mr-auto md:ml-0 md:max-w-xl lg:-mt-24 lg:max-w-lg xl:-mt-36" fluid={props.data.f1Two.childImageSharp.fluid} />
 
         <div className="border-b border-orange-800 pb-10 max-w-3xl"></div>
 
@@ -186,6 +226,18 @@ export const pageQuery = graphql`
       ...fluidImageDesigner
     }
     tbaaThree: file(relativePath: { eq: "designs/thebodyartacademy-03.jpg" }) {
+      ...fluidImageDesigner
+    }
+    f1Before: file(relativePath: { eq: "designs/f1-before.jpg" }) {
+      ...fluidImageDesigner
+    }
+    f1After: file(relativePath: { eq: "designs/f1-after.jpg" }) {
+      ...fluidImageDesigner
+    }
+    f1Two: file(relativePath: { eq: "designs/f1-2.jpg" }) {
+      ...fluidImageDesigner
+    }
+    f1Three: file(relativePath: { eq: "designs/f1-3.jpg" }) {
       ...fluidImageDesigner
     }
     shantymenBefore: file(relativePath: { eq: "designs/shantymen-before.jpg" }) {
