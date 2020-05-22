@@ -124,10 +124,10 @@ const DesignerPage = props => {
         <div className="max-w-3xl pb-10 border-b border-orange-800"></div>
 
         {/* 
-  --------------------------------------------------------
-  The Body Art Academy
-  --------------------------------------------------------
-*/}
+          --------------------------------------------------------
+        Effico
+          --------------------------------------------------------
+        */}
 
         <DesignerWork
           devTitle="Effico Ltd"
@@ -147,6 +147,56 @@ const DesignerPage = props => {
         <Img
           className="pb-8 mx-auto shadow-lg md:mr-0 md:ml-auto md:max-w-xl lg:-mt-24 lg:max-w-md xl:-mt-56"
           fluid={props.data.efficoTwo.childImageSharp.fluid}
+        />
+
+        <div className="max-w-3xl pb-10 border-b border-orange-800"></div>
+
+        {/* 
+          --------------------------------------------------------
+          Sheringham Flooring
+          --------------------------------------------------------
+        */}
+
+        <DesignerWork
+          devTitle="Sheringham Flooring"
+          devURL="https://www.sheringhamflooring.com/"
+          devDisplayURL="www.sheringhamflooring.com"
+          devDescription="An old WordPress theme that wasn't really maintained and had no real character was replaced with a fresh, new design that helped showcase the extent of work the company can carry out. Designed to convert visitors into enquiries and be SEO friendly, Sheringham Flooring is looking to become the main contender in the region for flooring."
+        >
+          <IconDeveloper />
+          <IconFigma />
+        </DesignerWork>
+
+        <div className="relative max-w-3xl absolute-image-wrapper">
+          <Img
+            className="top-0 left-0 z-0 max-w-3xl shadow-lg absolute-image"
+            fluid={props.data.sherFloorBefore.childImageSharp.fluid}
+          />
+
+          <p className="absolute right-0 z-0 p-3 top-2 bg-brown-standard text-brown-feint">
+            Original
+          </p>
+
+          <ImageShowHide>
+            <Img
+              className="top-0 left-0 z-10 max-w-3xl shadow-lg absolute-image"
+              fluid={props.data.sherFloorAfter.childImageSharp.fluid}
+            />
+
+            <p className="absolute right-0 z-10 p-3 top-2 bg-brown-standard text-brown-feint">
+              New
+            </p>
+          </ImageShowHide>
+        </div>
+
+        <Img
+          className="mx-auto mt-4 shadow-lg md:mr-0 md:ml-auto md:max-w-xl lg:max-w-sm xl:max-w-md"
+          fluid={props.data.sherFloorOne.childImageSharp.fluid}
+        />
+
+        <Img
+          className="mx-auto shadow-lg md:mr-auto md:ml-0 md:max-w-xl lg:-mt-24 lg:max-w-lg xl:-mt-36"
+          fluid={props.data.sherFloorTwo.childImageSharp.fluid}
         />
 
         <div className="max-w-3xl pb-10 border-b border-orange-800"></div>
@@ -380,6 +430,18 @@ export const pageQuery = graphql`
       ...fluidImageDesigner
     }
     efficoTwo: file(relativePath: { eq: "designs/effico-02.jpg" }) {
+      ...fluidImageDesigner
+    }
+    sherFloorBefore: file(relativePath: { eq: "designs/sheringhamflooring-before.jpg" }) {
+      ...fluidImageDesigner
+    }
+    sherFloorAfter: file(relativePath: { eq: "designs/sheringhamflooring-after.jpg" }) {
+      ...fluidImageDesigner
+    }
+    sherFloorOne: file(relativePath: { eq: "designs/sheringhamflooring-01.jpg" }) {
+      ...fluidImageDesigner
+    }
+    sherFloorTwo: file(relativePath: { eq: "designs/sheringhamflooring-02.jpg" }) {
       ...fluidImageDesigner
     }
   }
