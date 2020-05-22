@@ -56,6 +56,21 @@ const HomePage = () => (
     </DevelopmentWork>
 
     <DevelopmentWork
+      devTitle="Sheringham Flooring"
+      devURL="https://www.sheringhamflooring.com"
+      devDisplayURL="www.sheringhamflooring.com"
+      devDescription="Built to be blazing fast using GatsbyJS, and with the accessible CMS from DatoCMS, this site was quickly put live to combat a previously hacked and untended WordPress build."
+      date="April 2020"
+    >
+      <IconDesigner />
+      <IconGatsbyJS />
+      <IconDatoCMS />
+      <IconGraphQL />
+      <IconTailwind />
+      <IconNetlify />
+    </DevelopmentWork>
+
+    <DevelopmentWork
       devTitle="Formula One Gym"
       devURL="https://www.formulaonegym.co.uk"
       devDisplayURL="www.formulaonegym.co.uk"
@@ -79,9 +94,9 @@ const HomePage = () => (
     >
       <IconDesigner />
       <IconGatsbyJS />
+      <IconNetlifyCMS />
       <IconGraphQL />
       <IconSass />
-      <IconNetlifyCMS />
       <IconNetlify />
     </DevelopmentWork>
 
